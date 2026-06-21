@@ -1,0 +1,1546 @@
+{
+  "glass": [
+    {
+      "frequency": 392.16598598679815,
+      "frequency_variance": 1.6298019379060844,
+      "decay_rate": 9.691838571561068,
+      "decay_variance": 6.076959880090529,
+      "amplitude": 1.1789555588967127,
+      "observers": [
+        "Filterbank",
+        "Autocorrelation"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 400.09614558910465,
+      "frequency_variance": 2.7511051902563155,
+      "decay_rate": 72.10795576201028,
+      "decay_variance": 4205.825463681266,
+      "amplitude": 0.39364891013821973,
+      "observers": [
+        "STFT",
+        "LPC"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 358.3360334773789,
+      "frequency_variance": 0.01614888251218467,
+      "decay_rate": 72.01617508539377,
+      "decay_variance": 3846.005972222215,
+      "amplitude": 0.3339372894289556,
+      "observers": [
+        "LPC",
+        "Autocorrelation"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 3137.8090910812584,
+      "frequency_variance": 7.9293430386483195,
+      "decay_rate": 6.2669370802404565,
+      "decay_variance": 0.0019965987161605072,
+      "amplitude": 0.023630033447721858,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 2345.7551070653,
+      "frequency_variance": 4.020454343314478,
+      "decay_rate": 5.7289198768690826,
+      "decay_variance": 8.870680927858803e-05,
+      "amplitude": 0.017504948355699365,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 10979.85463171052,
+      "frequency_variance": 235.26238777693106,
+      "decay_rate": 15.443074453778088,
+      "decay_variance": 0.9958175107093638,
+      "amplitude": 0.0070744140792432415,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 14669.506511666077,
+      "frequency_variance": 5.609736987928728,
+      "decay_rate": 18.76431665006551,
+      "decay_variance": 0.1287648179841778,
+      "amplitude": 0.007049965592319593,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 7805.782970241402,
+      "frequency_variance": 1.2000550497971954,
+      "decay_rate": 11.791530933410563,
+      "decay_variance": 0.18821663184406315,
+      "amplitude": 0.004867045819303364,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 5854.085257689006,
+      "frequency_variance": 27.98137371672406,
+      "decay_rate": 9.054445889737146,
+      "decay_variance": 0.07877297847628476,
+      "amplitude": 0.004820113248923685,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 379.8544827994782,
+      "frequency_variance": 0.0,
+      "decay_rate": 135.4371175399563,
+      "decay_variance": 0.0,
+      "amplitude": 0.8544021594898601,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 423.54873903014135,
+      "frequency_variance": 0.0,
+      "decay_rate": 135.7190236154225,
+      "decay_variance": 0.0,
+      "amplitude": 0.2923165080881477,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 336.7246966758234,
+      "frequency_variance": 0.0,
+      "decay_rate": 135.31775925000778,
+      "decay_variance": 0.0,
+      "amplitude": 0.21533070805941887,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 445.1895864890447,
+      "frequency_variance": 0.0,
+      "decay_rate": 136.90921449567023,
+      "decay_variance": 0.0,
+      "amplitude": 0.17631617620091655,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 314.41224835318815,
+      "frequency_variance": 0.0,
+      "decay_rate": 130.48940699776466,
+      "decay_variance": 0.0,
+      "amplitude": 0.15611842457311845,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 42.47836278782761,
+      "frequency_variance": 0.0,
+      "decay_rate": 34.82510966751578,
+      "decay_variance": 0.0,
+      "amplitude": 0.1318920869659207,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 195.91836734693877,
+      "frequency_variance": 0.0,
+      "decay_rate": 7.947016273226056,
+      "decay_variance": 0.0,
+      "amplitude": 0.11784446278130362,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 272.2651135888455,
+      "frequency_variance": 0.0,
+      "decay_rate": 6.8678092980171295,
+      "decay_variance": 0.0,
+      "amplitude": 0.11621443412484807,
+      "observers": [
+        "Wavelet"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 187.01222535385972,
+      "frequency_variance": 0.0,
+      "decay_rate": 7.123175211752312,
+      "decay_variance": 0.0,
+      "amplitude": 0.11034358846132777,
+      "observers": [
+        "Wavelet"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 87.27272727272727,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.076689890232652,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 130.79019073569484,
+      "frequency_variance": 0.0,
+      "decay_rate": 14.411141420904883,
+      "decay_variance": 0.0,
+      "amplitude": 0.07633587533150457,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 126.3157894736842,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.07479336790552961,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 97.75967413441956,
+      "frequency_variance": 0.0,
+      "decay_rate": 9.845953839859506,
+      "decay_variance": 0.0,
+      "amplitude": 0.07446766989240217,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 2287.441471871285,
+      "frequency_variance": 0.0,
+      "decay_rate": 5.683769043214277,
+      "decay_variance": 0.0,
+      "amplitude": 0.007653631731857238,
+      "observers": [
+        "Wavelet"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 16429.6875,
+      "frequency_variance": 0.0,
+      "decay_rate": 55.93472453100341,
+      "decay_variance": 0.0,
+      "amplitude": 0.00205871459228924,
+      "observers": [
+        "STFT"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 3692.3076923076924,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.001177987888288451,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 5495.003686334099,
+      "frequency_variance": 0.0,
+      "decay_rate": 9.143519015691606,
+      "decay_variance": 0.0,
+      "amplitude": 0.0005460274168246333,
+      "observers": [
+        "Wavelet"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    }
+  ],
+  "mug": [
+    {
+      "frequency": 279.95093365408184,
+      "frequency_variance": 0.4765368899343054,
+      "decay_rate": 23.28931372311425,
+      "decay_variance": 0.3115325872862984,
+      "amplitude": 0.4653305208006766,
+      "observers": [
+        "Filterbank",
+        "LPC"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 508.30071041579447,
+      "frequency_variance": 0.754009786261987,
+      "decay_rate": 88.18250498395955,
+      "decay_variance": 311.9893771272226,
+      "amplitude": 0.3301944645867135,
+      "observers": [
+        "Matrix Pencil",
+        "Wavelet"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 492.4631424289371,
+      "frequency_variance": 0.07597874863035427,
+      "decay_rate": 49.87439884504881,
+      "decay_variance": 62.764241533931695,
+      "amplitude": 0.28828949474598264,
+      "observers": [
+        "Filterbank",
+        "STFT"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 184.93870402802102,
+      "frequency_variance": 0.0,
+      "decay_rate": 22.785256398463343,
+      "decay_variance": 0.0,
+      "amplitude": 4.376999700898532,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 189.72332015810278,
+      "frequency_variance": 0.0,
+      "decay_rate": 59.60870938809963,
+      "decay_variance": 0.0,
+      "amplitude": 2.539081780478898,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 194.52995134645994,
+      "frequency_variance": 0.0,
+      "decay_rate": 35.240605397119815,
+      "decay_variance": 0.0,
+      "amplitude": 2.3693610883688705,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 167.31848198036226,
+      "frequency_variance": 0.0,
+      "decay_rate": 42.86989542815119,
+      "decay_variance": 0.0,
+      "amplitude": 2.15917939304632,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 204.75733947753906,
+      "frequency_variance": 0.0,
+      "decay_rate": 36.08247375488281,
+      "decay_variance": 0.0,
+      "amplitude": 1.9558999313407421,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 153.97317504882812,
+      "frequency_variance": 0.0,
+      "decay_rate": 41.57435607910156,
+      "decay_variance": 0.0,
+      "amplitude": 1.713055448186681,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 222.44616543313626,
+      "frequency_variance": 0.0,
+      "decay_rate": 29.04417155403629,
+      "decay_variance": 0.0,
+      "amplitude": 1.406294371130323,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 140.04025770282604,
+      "frequency_variance": 0.0,
+      "decay_rate": 53.9141460733755,
+      "decay_variance": 0.0,
+      "amplitude": 1.3471045983472123,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 250.80285777101835,
+      "frequency_variance": 0.0,
+      "decay_rate": 26.052357807569173,
+      "decay_variance": 0.0,
+      "amplitude": 0.9023110785806198,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 111.58437269629489,
+      "frequency_variance": 0.0,
+      "decay_rate": 80.79513790246186,
+      "decay_variance": 0.0,
+      "amplitude": 0.880499257817787,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 255.27015686035156,
+      "frequency_variance": 0.0,
+      "decay_rate": 22.93657875061035,
+      "decay_variance": 0.0,
+      "amplitude": 0.8279486642158029,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 103.39289855957031,
+      "frequency_variance": 0.0,
+      "decay_rate": 48.48162078857422,
+      "decay_variance": 0.0,
+      "amplitude": 0.794743610368975,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 98.27882782345687,
+      "frequency_variance": 0.0,
+      "decay_rate": 136.05420599345828,
+      "decay_variance": 0.0,
+      "amplitude": 0.7500291952663972,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 93.02325581395348,
+      "frequency_variance": 0.0,
+      "decay_rate": 14.944742908773495,
+      "decay_variance": 0.0,
+      "amplitude": 0.7076612018448268,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 240.5496430014819,
+      "frequency_variance": 0.0,
+      "decay_rate": 23.84880355035644,
+      "decay_variance": 0.0,
+      "amplitude": 0.5619758071140709,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 51.746742248535156,
+      "frequency_variance": 0.0,
+      "decay_rate": 57.15147018432617,
+      "decay_variance": 0.0,
+      "amplitude": 0.513988481103555,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 303.8345947265625,
+      "frequency_variance": 0.0,
+      "decay_rate": 15.88416576385498,
+      "decay_variance": 0.0,
+      "amplitude": 0.4824046531665365,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 475.7055969238281,
+      "frequency_variance": 0.0,
+      "decay_rate": 114.17606353759766,
+      "decay_variance": 0.0,
+      "amplitude": 0.3317393047447709,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 351.2836608886719,
+      "frequency_variance": 0.0,
+      "decay_rate": 16.73990249633789,
+      "decay_variance": 0.0,
+      "amplitude": 0.3030464894707377,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 453.8774108886719,
+      "frequency_variance": 0.0,
+      "decay_rate": 1.0872009992599487,
+      "decay_variance": 0.0,
+      "amplitude": 0.2571940679448554,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 384.75262451171875,
+      "frequency_variance": 0.0,
+      "decay_rate": 205.70999145507812,
+      "decay_variance": 0.0,
+      "amplitude": 0.2290632512175856,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 319.4395796847636,
+      "frequency_variance": 0.0,
+      "decay_rate": 22.396230985089623,
+      "decay_variance": 0.0,
+      "amplitude": 0.19612054084586886,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 358.23790920113163,
+      "frequency_variance": 0.0,
+      "decay_rate": 22.788858945018205,
+      "decay_variance": 0.0,
+      "amplitude": 0.1474290568345964,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 394.4496834164085,
+      "frequency_variance": 0.0,
+      "decay_rate": 23.090724581681286,
+      "decay_variance": 0.0,
+      "amplitude": 0.11749729408765332,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 593.5323486328125,
+      "frequency_variance": 0.0,
+      "decay_rate": 265.34234619140625,
+      "decay_variance": 0.0,
+      "amplitude": 0.10882390407100266,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 234.375,
+      "frequency_variance": 0.0,
+      "decay_rate": 31.67004023606962,
+      "decay_variance": 0.0,
+      "amplitude": 0.05669546422758376,
+      "observers": [
+        "STFT"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 811.6089477539062,
+      "frequency_variance": 0.0,
+      "decay_rate": 224.4706268310547,
+      "decay_variance": 0.0,
+      "amplitude": 0.027731272222622085,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 945.3571166992188,
+      "frequency_variance": 0.0,
+      "decay_rate": 268.97021484375,
+      "decay_variance": 0.0,
+      "amplitude": 0.01824341049846616,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 1119.5830078125,
+      "frequency_variance": 0.0,
+      "decay_rate": 210.50003051757812,
+      "decay_variance": 0.0,
+      "amplitude": 0.0122894674917346,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 1329.940673828125,
+      "frequency_variance": 0.0,
+      "decay_rate": 157.1813201904297,
+      "decay_variance": 0.0,
+      "amplitude": 0.008471947055515983,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 8847.31240738246,
+      "frequency_variance": 0.0,
+      "decay_rate": 42.837859576663206,
+      "decay_variance": 0.0,
+      "amplitude": 0.0018152011364630763,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 796.875,
+      "frequency_variance": 0.0,
+      "decay_rate": 27.635993702071037,
+      "decay_variance": 0.0,
+      "amplitude": 0.0001892306801403738,
+      "observers": [
+        "STFT"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    }
+  ],
+  "metal_bowl": [
+    {
+      "frequency": 700.5791673487055,
+      "frequency_variance": 14.245629377506319,
+      "decay_rate": 53.81063456880096,
+      "decay_variance": 953.326660949136,
+      "amplitude": 0.9046688593866065,
+      "observers": [
+        "Filterbank",
+        "Autocorrelation",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
+    },
+    {
+      "frequency": 654.8041571612766,
+      "frequency_variance": 0.5709257031272228,
+      "decay_rate": 70.88883667045764,
+      "decay_variance": 4839.173025149102,
+      "amplitude": 0.47654866123062045,
+      "observers": [
+        "Wavelet",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 902.6812638692288,
+      "frequency_variance": 10.11112184243638,
+      "decay_rate": 333.0824125268391,
+      "decay_variance": 82128.6572875628,
+      "amplitude": 0.09708991994438701,
+      "observers": [
+        "Filterbank",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 732.9954223632812,
+      "frequency_variance": 0.0,
+      "decay_rate": 782.7928466796875,
+      "decay_variance": 0.0,
+      "amplitude": 0.5169307708295341,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 49.133419036865234,
+      "frequency_variance": 0.0,
+      "decay_rate": 19.332963943481445,
+      "decay_variance": 0.0,
+      "amplitude": 0.43051509873282257,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 55.29381561279297,
+      "frequency_variance": 0.0,
+      "decay_rate": 251.86892700195312,
+      "decay_variance": 0.0,
+      "amplitude": 0.41625069016887006,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 756.77001953125,
+      "frequency_variance": 0.0,
+      "decay_rate": 5.316074848175049,
+      "decay_variance": 0.0,
+      "amplitude": 0.36178968325329497,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 87.43169398907104,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.3422410820237709,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 92.18155630239687,
+      "frequency_variance": 0.0,
+      "decay_rate": 46.06765122176781,
+      "decay_variance": 0.0,
+      "amplitude": 0.3320776317112635,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 97.15919494628906,
+      "frequency_variance": 0.0,
+      "decay_rate": 0.12588517367839813,
+      "decay_variance": 0.0,
+      "amplitude": 0.32202486970893135,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 99.79209979209979,
+      "frequency_variance": 0.0,
+      "decay_rate": 192.57193047886332,
+      "decay_variance": 0.0,
+      "amplitude": 0.3165117256062879,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 116.50485436893204,
+      "frequency_variance": 0.0,
+      "decay_rate": 179.95791296357095,
+      "decay_variance": 0.0,
+      "amplitude": 0.2830987137399794,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 605.4243774414062,
+      "frequency_variance": 0.0,
+      "decay_rate": 1.1959224939346313,
+      "decay_variance": 0.0,
+      "amplitude": 0.2790160831279651,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 139.94169096209913,
+      "frequency_variance": 0.0,
+      "decay_rate": 181.49562827352176,
+      "decay_variance": 0.0,
+      "amplitude": 0.24759786560232314,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 806.3113403320312,
+      "frequency_variance": 0.0,
+      "decay_rate": 2.8239128589630127,
+      "decay_variance": 0.0,
+      "amplitude": 0.22134743639695473,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 622.2255050411788,
+      "frequency_variance": 0.0,
+      "decay_rate": 46.87615793367133,
+      "decay_variance": 0.0,
+      "amplitude": 0.2181365567698674,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 776.4523396240352,
+      "frequency_variance": 0.0,
+      "decay_rate": 46.16570912960912,
+      "decay_variance": 0.0,
+      "amplitude": 0.2014425847361069,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 174.54545454545453,
+      "frequency_variance": 0.0,
+      "decay_rate": 174.94344364513051,
+      "decay_variance": 0.0,
+      "amplitude": 0.1986758341296894,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 189.35366821289062,
+      "frequency_variance": 0.0,
+      "decay_rate": 492.9910583496094,
+      "decay_variance": 0.0,
+      "amplitude": 0.18620386366412198,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 536.829345703125,
+      "frequency_variance": 0.0,
+      "decay_rate": 598.0853271484375,
+      "decay_variance": 0.0,
+      "amplitude": 0.18457392838996445,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 856.51025390625,
+      "frequency_variance": 0.0,
+      "decay_rate": 0.06294254958629608,
+      "decay_variance": 0.0,
+      "amplitude": 0.15662511408870503,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 233.0097087378641,
+      "frequency_variance": 0.0,
+      "decay_rate": 173.0826678537297,
+      "decay_variance": 0.0,
+      "amplitude": 0.14986311035191063,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 254.6165313720703,
+      "frequency_variance": 0.0,
+      "decay_rate": 5.673743724822998,
+      "decay_variance": 0.0,
+      "amplitude": 0.13184994311252138,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 558.4075045241349,
+      "frequency_variance": 0.0,
+      "decay_rate": 47.77228439617417,
+      "decay_variance": 0.0,
+      "amplitude": 0.12710599623526392,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 350.3649635036496,
+      "frequency_variance": 0.0,
+      "decay_rate": 158.63383495024527,
+      "decay_variance": 0.0,
+      "amplitude": 0.12012881527917862,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 1090.287841796875,
+      "frequency_variance": 0.0,
+      "decay_rate": 666.1874389648438,
+      "decay_variance": 0.0,
+      "amplitude": 0.055498901420404895,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 1262.2294921875,
+      "frequency_variance": 0.0,
+      "decay_rate": 520.7658081054688,
+      "decay_variance": 0.0,
+      "amplitude": 0.031242803476047465,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 4319.97487157235,
+      "frequency_variance": 0.0,
+      "decay_rate": 0.05,
+      "decay_variance": 0.0,
+      "amplitude": 0.001259275497360536,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 4414.265245608213,
+      "frequency_variance": 0.0,
+      "decay_rate": 968.1888931477358,
+      "decay_variance": 0.0,
+      "amplitude": 0.0012031135633830518,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 5647.854456886354,
+      "frequency_variance": 414.91342161229676,
+      "decay_rate": 0.05000000000000001,
+      "decay_variance": 4.81482486096809e-35,
+      "amplitude": 0.0007455733108384615,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 5714.335357098687,
+      "frequency_variance": 254.59029391908464,
+      "decay_rate": 510.6741567571293,
+      "decay_variance": 521474.0589278587,
+      "amplitude": 0.0007291105101619724,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    }
+  ],
+  "wood": [
+    {
+      "frequency": 656.5622003647372,
+      "frequency_variance": 3.2132556394131613,
+      "decay_rate": 126.37149459298006,
+      "decay_variance": 2205.7704897790745,
+      "amplitude": 0.26499910203671323,
+      "observers": [
+        "Wavelet",
+        "LPC",
+        "Autocorrelation"
+      ],
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
+    },
+    {
+      "frequency": 497.3875878563406,
+      "frequency_variance": 0.02751582291282853,
+      "decay_rate": 102.38698918090435,
+      "decay_variance": 694.0882558444285,
+      "amplitude": 0.27376266151868345,
+      "observers": [
+        "Matrix Pencil",
+        "LPC"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 452.03814725006816,
+      "frequency_variance": 2.7678844191820673,
+      "decay_rate": 43.02632486384687,
+      "decay_variance": 1759.6101269744277,
+      "amplitude": 0.26734584757969243,
+      "observers": [
+        "LPC",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 666.8906367643353,
+      "frequency_variance": 7.100743989519542,
+      "decay_rate": 89.3990396603636,
+      "decay_variance": 5455.6232310144815,
+      "amplitude": 0.256527133569678,
+      "observers": [
+        "Filterbank",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 482.466243638136,
+      "frequency_variance": 12.728518993157195,
+      "decay_rate": 46.71833030039577,
+      "decay_variance": 1002.0918598072012,
+      "amplitude": 0.23353428591382694,
+      "observers": [
+        "Filterbank",
+        "LPC"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 603.7721625701413,
+      "frequency_variance": 0.9835748966288094,
+      "decay_rate": 5.233272844191281,
+      "decay_variance": 24.24854683756182,
+      "amplitude": 0.14262249046040432,
+      "observers": [
+        "Filterbank",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 755.303907294156,
+      "frequency_variance": 0.5671589198313692,
+      "decay_rate": 7.111554303353732,
+      "decay_variance": 43.06292475736936,
+      "amplitude": 0.1264459782333805,
+      "observers": [
+        "Filterbank",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 677.2726028569662,
+      "frequency_variance": 0.0,
+      "decay_rate": 74.5913928130901,
+      "decay_variance": 0.0,
+      "amplitude": 0.27214222906785956,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 411.4182917673809,
+      "frequency_variance": 0.0,
+      "decay_rate": 77.98831742520574,
+      "decay_variance": 0.0,
+      "amplitude": 0.2715175600722168,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 432.4348853688938,
+      "frequency_variance": 0.0,
+      "decay_rate": 132.73823597198074,
+      "decay_variance": 0.0,
+      "amplitude": 0.27111712415601696,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 403.552734375,
+      "frequency_variance": 0.0,
+      "decay_rate": 0.9241192936897278,
+      "decay_variance": 0.0,
+      "amplitude": 0.27060222750987933,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 381.8295603896925,
+      "frequency_variance": 0.0,
+      "decay_rate": 77.43071419095838,
+      "decay_variance": 0.0,
+      "amplitude": 0.2652678725343658,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 374.587158203125,
+      "frequency_variance": 0.0,
+      "decay_rate": 455.10498046875,
+      "decay_variance": 0.0,
+      "amplitude": 0.26270524656170113,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 509.16904778471394,
+      "frequency_variance": 0.0,
+      "decay_rate": 130.8675631098005,
+      "decay_variance": 0.0,
+      "amplitude": 0.2538867063925049,
+      "observers": [
+        "Wavelet"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 342.85714285714283,
+      "frequency_variance": 0.0,
+      "decay_rate": 231.81537355695443,
+      "decay_variance": 0.0,
+      "amplitude": 0.2481399415716765,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 519.8289766763102,
+      "frequency_variance": 0.0,
+      "decay_rate": 35.55125380903673,
+      "decay_variance": 0.0,
+      "amplitude": 0.2326653761195908,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 705.8955688476562,
+      "frequency_variance": 0.0,
+      "decay_rate": 0.9441468119621277,
+      "decay_variance": 0.0,
+      "amplitude": 0.23155236188473044,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 611.939453125,
+      "frequency_variance": 0.0,
+      "decay_rate": 547.3875122070312,
+      "decay_variance": 0.0,
+      "amplitude": 0.2133831110856909,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 257.20281982421875,
+      "frequency_variance": 0.0,
+      "decay_rate": 294.9430847167969,
+      "decay_variance": 0.0,
+      "amplitude": 0.1971643793044267,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 554.8955078125,
+      "frequency_variance": 0.0,
+      "decay_rate": 1.6021995544433594,
+      "decay_variance": 0.0,
+      "amplitude": 0.19553117883973775,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 251.56610107421875,
+      "frequency_variance": 0.0,
+      "decay_rate": 1.0099517107009888,
+      "decay_variance": 0.0,
+      "amplitude": 0.19357183703277356,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 694.3342123454262,
+      "frequency_variance": 0.0,
+      "decay_rate": 15.326704967744302,
+      "decay_variance": 0.0,
+      "amplitude": 0.19218008935750047,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 228.57142857142858,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.17893283158938542,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 201.9777069091797,
+      "frequency_variance": 0.0,
+      "decay_rate": 6.73245906829834,
+      "decay_variance": 0.0,
+      "amplitude": 0.1622883936664087,
+      "observers": [
+        "Prony"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 634.1176169384777,
+      "frequency_variance": 0.0,
+      "decay_rate": 14.699492460471875,
+      "decay_variance": 0.0,
+      "amplitude": 0.1617525136308427,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 798.84619140625,
+      "frequency_variance": 0.0,
+      "decay_rate": 545.5470581054688,
+      "decay_variance": 0.0,
+      "amplitude": 0.14469725191759691,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 167.83216783216784,
+      "frequency_variance": 0.0,
+      "decay_rate": 208.18663143611457,
+      "decay_variance": 0.0,
+      "amplitude": 0.1421212760218015,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 132.9639889196676,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.12397934273153627,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 112.41217798594847,
+      "frequency_variance": 0.0,
+      "decay_rate": 113.7533880229298,
+      "decay_variance": 0.0,
+      "amplitude": 0.1149870513789421,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 96.579476861167,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.10921721253544309,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 73.17176818847656,
+      "frequency_variance": 0.0,
+      "decay_rate": 73.36975860595703,
+      "decay_variance": 0.0,
+      "amplitude": 0.10897443147229606,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 83.62369337979094,
+      "frequency_variance": 0.0,
+      "decay_rate": 10.0,
+      "decay_variance": 0.0,
+      "amplitude": 0.10617364427420846,
+      "observers": [
+        "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 724.4425100489004,
+      "frequency_variance": 0.0,
+      "decay_rate": 13.621983421239236,
+      "decay_variance": 0.0,
+      "amplitude": 0.09503267559560559,
+      "observers": [
+        "Filterbank"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 925.6643676757812,
+      "frequency_variance": 0.0,
+      "decay_rate": 509.9616394042969,
+      "decay_variance": 0.0,
+      "amplitude": 0.06616269213033936,
+      "observers": [
+        "Matrix Pencil"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    }
+  ]
+}

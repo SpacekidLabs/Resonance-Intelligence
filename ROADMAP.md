@@ -9,6 +9,7 @@ This is a living research roadmap for the **Resonance-Intelligence** project. We
 - [x] Repository design and project layout initialization.
 - [x] **Experiment 01 (Modal Extraction)**: Run extraction on synthetic impacts (glass, mug, bowl, wood) using both STFT and IIR Filterbank observers. Collect JSON modes. (Completed June 21, 2026)
 - [x] **Experiment 02 (Modal Resynthesis)**: Resynthesize impacts, compute reconstruction error curves, and plot comparison dashboards. (Completed June 21, 2026)
+- [x] **Experiment 03 (Observer Sweep & Epistemic Stability)**: Sweep 7 observers (STFT, Filterbank, LPC, Prony, Matrix Pencil, Autocorrelation, Wavelet) on 4 real impact sounds, cluster to construct consensus modes, and map epistemic stability. (Completed June 21, 2026)
 
 ---
 
@@ -51,7 +52,8 @@ The project should be redirected or abandoned if any of the following are empiri
 
 - [x] Run Experiment 01 to extract modes and measure observer agreement.
 - [x] Run Experiment 02 to resynthesize the impacts and measure RMS reconstruction error.
-- [ ] Design Experiment 03 (Adversarial Signals Sweep) to test how close mode spacing or pitch glides degrade observer agreement.
+- [x] Run Experiment 03 to sweep 7 different observers and map epistemic stability.
+- [ ] Design Experiment 04 (Phase Alignment & Resynthesis) to test how tracking onset phases reduces waveform error.
 
 ---
 
@@ -74,4 +76,15 @@ We reconstructed the sounds using the Fourier modes (phases set to zero):
 - *Scientific Verdict*:
   - The high RMS error ratios ($>100\%$) and negative SNRs confirm **Hypothesis C (Phase Sensitivity)**. Without tracking phase, the initial waveforms are out-of-phase at onset, creating large subtraction errors despite the sounding identity surviving.
   - Damped wood impacts show the highest reconstruction error (**153.97%**), confirming **Hypothesis B** (wood is dominated by transient broad-band noise, which is not sparse in a modal basis).
+
+### Experiment 03: Observer Sweep & Epistemic Stability
+We swept 7 different observers (STFT, Filterbank, LPC, Prony, Matrix Pencil, Autocorrelation, Wavelet) on 4 real impact sound files (glass, mug, metal bowl, wood) and grouped detected candidate peaks using linkage clustering with a 1.5% frequency tolerance.
+- **Glass**: 26 consensus modes, max agreement **2/7** (Autocorrelation + Filterbank at 392.17 Hz; LPC + STFT at 400.10 Hz).
+- **Ceramic Mug**: 35 consensus modes, max agreement **2/7** (Filterbank + LPC at 279.95 Hz; Matrix Pencil + Wavelet at 508.30 Hz).
+- **Metal Bowl**: 31 consensus modes, max agreement **3/7** (Autocorrelation + Filterbank + Matrix Pencil at 700.58 Hz).
+- **Wood**: 34 consensus modes, max agreement **3/7** (Autocorrelation + LPC + Wavelet at 656.56 Hz).
+- *Scientific Verdict*:
+  - **No Global Invariants Found**: Across all 7 observers, no mode achieved consensus from more than 3 observers. This shows that "resonance" is highly observer-dependent and fragile.
+  - **Grid/Discretization Biases**: The Gabor limit of the Fourier observer and the coarse grid limit of the logarithmic Wavelet observer ($\approx 13\%$ bin spacing) systematically prevent alignment with continuous pole estimators (like Matrix Pencil, Prony, or LPC) under narrow tolerance bands.
+  - **Damping & Overfitting**: Damped impacts like wood show high densities of unstable, transient-periodicity modes with high parameter variance, whereas metallic structures show clustered consensus peaks representing mechanical resonances.
 
