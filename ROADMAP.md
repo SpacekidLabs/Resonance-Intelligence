@@ -11,6 +11,7 @@ This is a living research roadmap for the **Resonance-Intelligence** project. We
 - [x] **Experiment 02 (Modal Resynthesis)**: Resynthesize impacts, compute reconstruction error curves, and plot comparison dashboards. (Completed June 21, 2026)
 - [x] **Experiment 03 (Observer Sweep & Epistemic Stability)**: Sweep 7 observers (STFT, Filterbank, LPC, Prony, Matrix Pencil, Autocorrelation, Wavelet) on 4 real impact sounds, cluster to construct consensus modes, and map epistemic stability. (Completed June 21, 2026)
 - [x] **Experiment 04 (Phase Alignment & Resynthesis)**: Compare time-domain reconstruction errors across three cases (No Alignment, Onset Only, Full Phase Alignment) and identify the primary reconstruction bottleneck. (Completed June 21, 2026)
+- [x] **Experiment 05 (State Drift Analysis)**: Apply relative frequency perturbations to consensus modes, measure phase divergence and local error growth, and quantify frequency precision requirements for predictability. (Completed June 21, 2026)
 
 ---
 
@@ -55,7 +56,8 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 02 to resynthesize the impacts and measure RMS reconstruction error.
 - [x] Run Experiment 03 to sweep 7 different observers and map epistemic stability.
 - [x] Run Experiment 04 to compare time-domain reconstruction errors with phase alignment.
-- [ ] Design Experiment 05 (Decay Rate Optimization) to fit both complex frequencies and decay parameters jointly, reducing cumulative phase drift.
+- [x] Run Experiment 05 to apply relative frequency perturbations and analyze state drift.
+- [ ] Design Experiment 06 (Iterative Phase Estimation) to implement a phase-locked loop (PLL) observer to actively track and correct frequency drift over time.
 
 ---
 
@@ -98,4 +100,14 @@ We evaluated reconstruction accuracy across three cases: No Alignment, Onset Ali
   - **Phase Alignment is the Primary Waveform Bottleneck**: The massive error reduction for the Metal Bowl confirms that phase alignment at onset is the primary time-domain bottleneck.
   - **Extreme Frequency Sensitivity**: Glass and Mug did not reconstruct well over a long 90 ms window because minor frequency mismatches (e.g. 2% error) accumulate linearly as phase drift over time. Fitting over a short 10 ms window (reducing phase drift accumulation) drops Glass error to **28.62%** and increases SNR to **10.87 dB**, confirming that time-domain waveform matching requires sub-0.5% frequency precision.
   - **Modal State Separation**: Successfully separates mechanical structural invariants (frequencies, decays) from transient excitation conditions (onset delay, amplitudes, phases).
+
+### Experiment 05: State Drift Analysis
+We evaluated the sensitivity of predictability to relative frequency perturbations (0.1% to 2.0%) applied to consensus modes.
+- **Stable vs. Catastrophic Drift**:
+  - **0.1% Perturbation**: Stable over 100 ms with bounded phase divergence.
+  - **0.5% Perturbation**: Usable over short term, but noticeable drift at the tails.
+  - **1.0% & 2.0% Perturbations**: Catastrophic drift. Local windowed error surges to 100% within **15-30 ms** of onset.
+- *Scientific Verdict*:
+  - **Modes alone are insufficient**: Predictability requires the joint combination of modal structure (frequencies, decays), state initialization (onset time, amplitudes, phases), and extremely high parameter precision (sub-0.5% error).
+  - *Observer agreement on resonance modes is relatively easy to achieve. Accurate long-term prediction of resonant evolution is much harder because tiny frequency errors accumulate into large phase errors over time.*
 
