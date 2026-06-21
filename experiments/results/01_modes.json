@@ -1,0 +1,415 @@
+{
+  "glass": {
+    "fourier_modes": [
+      {
+        "frequency": 1550.390625,
+        "amplitude": 0.1852036762772222,
+        "decay_rate": 6.9938893370826705,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2239.453125,
+        "amplitude": 0.10945411196107674,
+        "decay_rate": 10.001168408528097,
+        "phase": 0.0
+      },
+      {
+        "frequency": 3100.78125,
+        "amplitude": 0.06028526701864066,
+        "decay_rate": 13.94758571019589,
+        "phase": 0.0
+      },
+      {
+        "frequency": 4478.90625,
+        "amplitude": 0.026330344236433052,
+        "decay_rate": 21.80750834853633,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_modes": [
+      {
+        "frequency": 1560.0,
+        "amplitude": 0.8622112086968403,
+        "decay_rate": 6.9587223724539555,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2240.0,
+        "amplitude": 0.34779881656627476,
+        "decay_rate": 9.859203385526369,
+        "phase": 0.0
+      },
+      {
+        "frequency": 3110.0,
+        "amplitude": 0.14717326190259353,
+        "decay_rate": 13.539853075999348,
+        "phase": 0.0
+      },
+      {
+        "frequency": 4480.0,
+        "amplitude": 0.041570236884491844,
+        "decay_rate": 19.857345008494626,
+        "phase": 0.0
+      }
+    ],
+    "agreement_rate": 1.0,
+    "confirmed_modes": [
+      {
+        "frequency_fourier": 1550.390625,
+        "frequency_filterbank": 1560.0,
+        "frequency_error_percent": 0.6178886293421747,
+        "amplitude_fourier": 0.1852036762772222,
+        "amplitude_filterbank": 0.8622112086968403,
+        "decay_fourier": 6.9938893370826705,
+        "decay_filterbank": 6.9587223724539555,
+        "decay_error_percent": 0.5040914971449865
+      },
+      {
+        "frequency_fourier": 2239.453125,
+        "frequency_filterbank": 2240.0,
+        "frequency_error_percent": 0.024417043096081066,
+        "amplitude_fourier": 0.10945411196107674,
+        "amplitude_filterbank": 0.34779881656627476,
+        "decay_fourier": 10.001168408528097,
+        "decay_filterbank": 9.859203385526369,
+        "decay_error_percent": 1.429631071098348
+      },
+      {
+        "frequency_fourier": 3100.78125,
+        "frequency_filterbank": 3110.0,
+        "frequency_error_percent": 0.29686281415884674,
+        "amplitude_fourier": 0.06028526701864066,
+        "amplitude_filterbank": 0.14717326190259353,
+        "decay_fourier": 13.94758571019589,
+        "decay_filterbank": 13.539853075999348,
+        "decay_error_percent": 2.9666833448397782
+      },
+      {
+        "frequency_fourier": 4478.90625,
+        "frequency_filterbank": 4480.0,
+        "frequency_error_percent": 0.024417043096081066,
+        "amplitude_fourier": 0.026330344236433052,
+        "amplitude_filterbank": 0.041570236884491844,
+        "decay_fourier": 21.80750834853633,
+        "decay_filterbank": 19.857345008494626,
+        "decay_error_percent": 9.361191425926927
+      }
+    ],
+    "fragile_modes": [],
+    "fourier_only": [],
+    "filterbank_only": []
+  },
+  "mug": {
+    "fourier_modes": [
+      {
+        "frequency": 818.26171875,
+        "amplitude": 0.1700598550536224,
+        "decay_rate": 13.947615880944923,
+        "phase": 0.0
+      },
+      {
+        "frequency": 1335.05859375,
+        "amplitude": 0.11111351545674332,
+        "decay_rate": 19.861584867096763,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2088.720703125,
+        "amplitude": 0.0583715935085569,
+        "decay_rate": 27.73594740545376,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2928.515625,
+        "amplitude": 0.02590807836361876,
+        "decay_rate": 39.45248430933466,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_modes": [
+      {
+        "frequency": 820.0,
+        "amplitude": 1.3495259724161612,
+        "decay_rate": 13.61832237367271,
+        "phase": 0.0
+      },
+      {
+        "frequency": 1340.0,
+        "amplitude": 0.5613494683727157,
+        "decay_rate": 18.805209570617702,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2080.0,
+        "amplitude": 0.22076121300769935,
+        "decay_rate": 24.370765035198918,
+        "phase": 0.0
+      },
+      {
+        "frequency": 2920.0,
+        "amplitude": 0.06407303109990574,
+        "decay_rate": 30.647205383695802,
+        "phase": 0.0
+      }
+    ],
+    "agreement_rate": 0.75,
+    "confirmed_modes": [
+      {
+        "frequency_fourier": 818.26171875,
+        "frequency_filterbank": 820.0,
+        "frequency_error_percent": 0.21221044599959463,
+        "amplitude_fourier": 0.1700598550536224,
+        "amplitude_filterbank": 1.3495259724161612,
+        "decay_fourier": 13.947615880944923,
+        "decay_filterbank": 13.61832237367271,
+        "decay_error_percent": 2.3891333154027703
+      },
+      {
+        "frequency_fourier": 1335.05859375,
+        "frequency_filterbank": 1340.0,
+        "frequency_error_percent": 0.3694428422274629,
+        "amplitude_fourier": 0.11111351545674332,
+        "amplitude_filterbank": 0.5613494683727157,
+        "decay_fourier": 19.861584867096763,
+        "decay_filterbank": 18.805209570617702,
+        "decay_error_percent": 5.463992098857324
+      },
+      {
+        "frequency_fourier": 2088.720703125,
+        "frequency_filterbank": 2080.0,
+        "frequency_error_percent": 0.4183874980380765,
+        "amplitude_fourier": 0.0583715935085569,
+        "amplitude_filterbank": 0.22076121300769935,
+        "decay_fourier": 27.73594740545376,
+        "decay_filterbank": 24.370765035198918,
+        "decay_error_percent": 12.916502356918572
+      }
+    ],
+    "fragile_modes": [
+      {
+        "frequency_fourier": 2928.515625,
+        "frequency_filterbank": 2920.0,
+        "frequency_error_percent": 0.2912063691374681,
+        "amplitude_fourier": 0.02590807836361876,
+        "amplitude_filterbank": 0.06407303109990574,
+        "decay_fourier": 39.45248430933466,
+        "decay_filterbank": 30.647205383695802,
+        "decay_error_percent": 25.12216234964106
+      }
+    ],
+    "fourier_only": [],
+    "filterbank_only": []
+  },
+  "metal_bowl": {
+    "fourier_modes": [
+      {
+        "frequency": 430.6640625,
+        "amplitude": 0.157805932258258,
+        "decay_rate": 1.5048574096920715,
+        "phase": 0.0
+      },
+      {
+        "frequency": 645.99609375,
+        "amplitude": 0.13494775598434255,
+        "decay_rate": 2.80011124584534,
+        "phase": 0.0
+      },
+      {
+        "frequency": 947.4609375,
+        "amplitude": 0.08497725344043394,
+        "decay_rate": 4.200134691846173,
+        "phase": 0.0
+      },
+      {
+        "frequency": 1378.125,
+        "amplitude": 0.043333573171847294,
+        "decay_rate": 6.499376812371578,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_modes": [
+      {
+        "frequency": 440.0,
+        "amplitude": 2.70844264439229,
+        "decay_rate": 1.4999985594410523,
+        "phase": 0.0
+      },
+      {
+        "frequency": 650.0,
+        "amplitude": 1.403242793524429,
+        "decay_rate": 2.796614483035822,
+        "phase": 0.0
+      },
+      {
+        "frequency": 940.0,
+        "amplitude": 0.6532627155936416,
+        "decay_rate": 4.183834447960743,
+        "phase": 0.0
+      },
+      {
+        "frequency": 1370.0,
+        "amplitude": 0.23907761940274133,
+        "decay_rate": 6.402285595938221,
+        "phase": 0.0
+      }
+    ],
+    "agreement_rate": 0.75,
+    "confirmed_modes": [
+      {
+        "frequency_fourier": 645.99609375,
+        "frequency_filterbank": 650.0,
+        "frequency_error_percent": 0.6178886293421747,
+        "amplitude_fourier": 0.13494775598434255,
+        "amplitude_filterbank": 1.403242793524429,
+        "decay_fourier": 2.80011124584534,
+        "decay_filterbank": 2.796614483035822,
+        "decay_error_percent": 0.12495744758308802
+      },
+      {
+        "frequency_fourier": 947.4609375,
+        "frequency_filterbank": 940.0,
+        "frequency_error_percent": 0.790579275233345,
+        "amplitude_fourier": 0.08497725344043394,
+        "amplitude_filterbank": 0.6532627155936416,
+        "decay_fourier": 4.200134691846173,
+        "decay_filterbank": 4.183834447960743,
+        "decay_error_percent": 0.38884312701095625
+      },
+      {
+        "frequency_fourier": 1378.125,
+        "frequency_filterbank": 1370.0,
+        "frequency_error_percent": 0.5913122583579713,
+        "amplitude_fourier": 0.043333573171847294,
+        "amplitude_filterbank": 0.23907761940274133,
+        "decay_fourier": 6.499376812371578,
+        "decay_filterbank": 6.402285595938221,
+        "decay_error_percent": 1.5050962172257918
+      }
+    ],
+    "fragile_modes": [],
+    "fourier_only": [
+      {
+        "frequency": 430.6640625,
+        "amplitude": 0.157805932258258,
+        "decay_rate": 1.5048574096920715,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_only": [
+      {
+        "frequency": 440.0,
+        "amplitude": 2.70844264439229,
+        "decay_rate": 1.4999985594410523,
+        "phase": 0.0
+      }
+    ]
+  },
+  "wood": {
+    "fourier_modes": [
+      {
+        "frequency": 172.265625,
+        "amplitude": 0.16182228616825564,
+        "decay_rate": 47.02241857303308,
+        "phase": 0.0
+      },
+      {
+        "frequency": 387.59765625,
+        "amplitude": 0.05871843309667813,
+        "decay_rate": 61.926787986885756,
+        "phase": 0.0
+      },
+      {
+        "frequency": 624.462890625,
+        "amplitude": 0.02937086068947708,
+        "decay_rate": 80.76094773598012,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_modes": [
+      {
+        "frequency": 180.4,
+        "amplitude": 6.870230671863695,
+        "decay_rate": 34.58617816412703,
+        "phase": 0.0
+      },
+      {
+        "frequency": 378.8,
+        "amplitude": 1.0736463566520054,
+        "decay_rate": 39.33517446397448,
+        "phase": 0.0
+      },
+      {
+        "frequency": 618.4000000000001,
+        "amplitude": 0.3418279233823943,
+        "decay_rate": 41.4072679866328,
+        "phase": 0.0
+      },
+      {
+        "frequency": 937.2,
+        "amplitude": 0.05615454565780143,
+        "decay_rate": 39.739985737973655,
+        "phase": 0.0
+      },
+      {
+        "frequency": 3712.4,
+        "amplitude": 0.002921516713528825,
+        "decay_rate": 48.09265206464175,
+        "phase": 0.0
+      }
+    ],
+    "agreement_rate": 0.0,
+    "confirmed_modes": [],
+    "fragile_modes": [
+      {
+        "frequency_fourier": 624.462890625,
+        "frequency_filterbank": 618.4000000000001,
+        "frequency_error_percent": 0.9756330598866066,
+        "amplitude_fourier": 0.02937086068947708,
+        "amplitude_filterbank": 0.3418279233823943,
+        "decay_fourier": 80.76094773598012,
+        "decay_filterbank": 41.4072679866328,
+        "decay_error_percent": 64.42539823729796
+      }
+    ],
+    "fourier_only": [
+      {
+        "frequency": 172.265625,
+        "amplitude": 0.16182228616825564,
+        "decay_rate": 47.02241857303308,
+        "phase": 0.0
+      },
+      {
+        "frequency": 387.59765625,
+        "amplitude": 0.05871843309667813,
+        "decay_rate": 61.926787986885756,
+        "phase": 0.0
+      }
+    ],
+    "filterbank_only": [
+      {
+        "frequency": 180.4,
+        "amplitude": 6.870230671863695,
+        "decay_rate": 34.58617816412703,
+        "phase": 0.0
+      },
+      {
+        "frequency": 378.8,
+        "amplitude": 1.0736463566520054,
+        "decay_rate": 39.33517446397448,
+        "phase": 0.0
+      },
+      {
+        "frequency": 937.2,
+        "amplitude": 0.05615454565780143,
+        "decay_rate": 39.739985737973655,
+        "phase": 0.0
+      },
+      {
+        "frequency": 3712.4,
+        "amplitude": 0.002921516713528825,
+        "decay_rate": 48.09265206464175,
+        "phase": 0.0
+      }
+    ]
+  }
+}

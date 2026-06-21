@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Exclude generated audio files and plots
+experiments/test_sounds/*.wav
+experiments/results/*.wav
+experiments/results/*.png
