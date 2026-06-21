@@ -2,12 +2,12 @@
 
 This report summarizes the reconstruction accuracy of the physical impact sounds using only the modal parameters extracted in Experiment 01.
 
-| Material | Extracted Modes | RMS Error Ratio | Reconstruction SNR | Status |
-| :--- | :---: | :---: | :---: | :--- |
-| Glass | 4 | 127.37% | -2.10 dB | Good Reconstruction (Moderate damping) |
-| Mug | 4 | 147.44% | -3.37 dB | Good Reconstruction (Moderate damping) |
-| Metal bowl | 4 | 141.55% | -3.02 dB | Good Reconstruction (Moderate damping) |
-| Wood | 3 | 153.97% | -3.75 dB | Highly Damped (High error expected due to transient onset dominance) |
+| Material | Observer Source | Extracted Modes | RMS Error Ratio | Reconstruction SNR | Status |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| Glass | Fourier | 8 | 128.90% | -2.20 dB | Good Reconstruction (Moderate damping) |
+| Mug | Fourier | 3 | 118.28% | -1.46 dB | Good Reconstruction (Moderate damping) |
+| Metal bowl | Filterbank | 6 | 117.13% | -1.37 dB | Good Reconstruction (Moderate damping) |
+| Wood | Filterbank | 8 | 134.35% | -2.56 dB | Highly Damped (High error expected due to transient onset dominance) |
 
 ## Scientific Interpretation of Reconstruction Accuracy
 

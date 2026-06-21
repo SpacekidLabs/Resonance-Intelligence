@@ -47,8 +47,8 @@ def main() -> None:
     report_lines.append("")
     report_lines.append("This report summarizes the reconstruction accuracy of the physical impact sounds using only the modal parameters extracted in Experiment 01.")
     report_lines.append("")
-    report_lines.append("| Material | Extracted Modes | RMS Error Ratio | Reconstruction SNR | Status |")
-    report_lines.append("| :--- | :---: | :---: | :---: | :--- |")
+    report_lines.append("| Material | Observer Source | Extracted Modes | RMS Error Ratio | Reconstruction SNR | Status |")
+    report_lines.append("| :--- | :---: | :---: | :---: | :---: | :--- |")
 
     for mat in materials:
         print(f"\nProcessing '{mat}'...")
@@ -60,11 +60,20 @@ def main() -> None:
         # Load original signal
         fs, sig_int = wavfile.read(wav_path)
         sig = sig_int.astype(np.float32) / 32767.0
+        if len(sig.shape) > 1:
+            sig = np.mean(sig, axis=1)
         duration = len(sig) / fs
         
         # Load Fourier observer extracted modes from JSON
         modes_dict = all_modes_data[mat]["fourier_modes"]
         modes = ModeList.from_list_of_dicts(modes_dict)
+        source_obs = "Fourier"
+        
+        # Fall back to Filterbank modes if Fourier extracted 0 modes
+        if len(modes) == 0:
+            modes_dict = all_modes_data[mat]["filterbank_modes"]
+            modes = ModeList.from_list_of_dicts(modes_dict)
+            source_obs = "Filterbank"
         
         # Resynthesize signal
         recon = synthesize_modes(modes, duration, fs)
@@ -95,11 +104,12 @@ def main() -> None:
         else:
             status = "Good Reconstruction (Moderate damping)"
             
-        report_lines.append(f"| {mat.replace('_', ' ').capitalize()} | {len(modes)} | {rms_ratio:.2%} | {snr_db:.2f} dB | {status} |")
+        report_lines.append(f"| {mat.replace('_', ' ').capitalize()} | {source_obs} | {len(modes)} | {rms_ratio:.2%} | {snr_db:.2f} dB | {status} |")
         
         # Save visualization dashboard plot
         plot_path = results_dir / f"{mat}_reconstruction.png"
-        plot_reconstruction_dashboard(sig, recon, fs, mat.replace("_", " ").title(), plot_path)
+        plot_reconstruction_dashboard(sig, recon, fs, f"{mat.replace('_', ' ').title()} ({source_obs} Source)", plot_path)
+        print(f"  Observer Source: {source_obs}")
         print(f"  Reconstruction SNR: {snr_db:.2f} dB (RMS error ratio: {rms_ratio:.2%})")
         print(f"  Saved comparison dashboard to: {plot_path}")
         print(f"  Saved reconstructed wav to: {recon_wav_path}")

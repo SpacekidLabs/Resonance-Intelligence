@@ -111,6 +111,8 @@ def main() -> None:
         print(f"\nAnalyzing sound: '{mat}'")
         fs, sig_int = wavfile.read(audio_paths[mat])
         sig = sig_int.astype(np.float32) / 32767.0
+        if len(sig.shape) > 1:
+            sig = np.mean(sig, axis=1)
 
         # Fourier Observer Extraction
         modes_fourier = fourier_obs.extract_modes(sig, max_modes=8)
