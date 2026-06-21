@@ -8,6 +8,12 @@ from scipy.spatial.distance import squareform
 from resonance.modal import Mode, ModeList
 
 
+def detect_onset(sig: np.ndarray, threshold: float = 0.005) -> int:
+    """Helper function to locate the starting sample of the transient/onset."""
+    indices = np.where(np.abs(sig) > threshold)[0]
+    return int(indices[0]) if len(indices) > 0 else 0
+
+
 def estimate_amplitude_filterbank(sig: np.ndarray, fc: float, fs: int, bandwidth: float = 15.0) -> float:
     """Helper function to filter the signal at a frequency and measure peak envelope amplitude."""
     if fc <= bandwidth or fc >= fs / 2.0 - bandwidth:
@@ -194,8 +200,11 @@ class LpcObserver:
 
     def extract_modes(self, sig: np.ndarray, max_modes: int = 12) -> ModeList:
         """Extracts resonances by fitting an autoregressive model and solving for polynomial roots."""
-        N = min(2000, len(sig))
-        s_seg = sig[:N]
+        onset_idx = detect_onset(sig)
+        N = min(2000, len(sig) - onset_idx)
+        if N <= self.order:
+            return ModeList()
+        s_seg = sig[onset_idx : onset_idx + N]
         
         # Compute autocorrelation
         r = np.correlate(s_seg, s_seg, mode='full')[len(s_seg)-1:]
@@ -234,8 +243,9 @@ class PronyObserver:
 
     def extract_modes(self, sig: np.ndarray, max_modes: int = 12) -> ModeList:
         """Extracts resonances by solving the Prony characteristic equation for complex exponentials."""
-        N = min(1000, len(sig))
-        s_seg = sig[:N]
+        onset_idx = detect_onset(sig)
+        N = min(2000, len(sig) - onset_idx)
+        s_seg = sig[onset_idx : onset_idx + N]
         P = self.order
         
         if N <= P * 2:
@@ -278,8 +288,9 @@ class MatrixPencilObserver:
 
     def extract_modes(self, sig: np.ndarray, max_modes: int = 12) -> ModeList:
         """Extracts resonances by singular value decomposition of the Hankel matrix (subspace method)."""
-        N = min(1000, len(sig))
-        s_seg = sig[:N]
+        onset_idx = detect_onset(sig)
+        N = min(2000, len(sig) - onset_idx)
+        s_seg = sig[onset_idx : onset_idx + N]
         L = N // 3
         
         if L < self.num_poles:
@@ -547,7 +558,7 @@ def run_observer_sweep(
     sig: np.ndarray,
     fs: int = 44_100,
     max_modes: int = 8,
-    freq_tol_percent: float = 1.5
+    freq_tol_percent: float = 3.5
 ) -> list[dict]:
     """Sweeps the signal across 7 observers, groups candidate peaks into consensus modes, and evaluates epistemic stability."""
     observers = {

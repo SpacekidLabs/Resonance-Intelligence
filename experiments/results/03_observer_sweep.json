@@ -1,40 +1,124 @@
 {
   "glass": [
     {
-      "frequency": 392.16598598679815,
-      "frequency_variance": 1.6298019379060844,
-      "decay_rate": 9.691838571561068,
-      "decay_variance": 6.076959880090529,
-      "amplitude": 1.1789555588967127,
-      "observers": [
-        "Filterbank",
-        "Autocorrelation"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 400.09614558910465,
-      "frequency_variance": 2.7511051902563155,
-      "decay_rate": 72.10795576201028,
-      "decay_variance": 4205.825463681266,
-      "amplitude": 0.39364891013821973,
-      "observers": [
-        "STFT",
-        "LPC"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 358.3360334773789,
-      "frequency_variance": 0.01614888251218467,
-      "decay_rate": 72.01617508539377,
-      "decay_variance": 3846.005972222215,
-      "amplitude": 0.3339372894289556,
+      "frequency": 395.47035465263133,
+      "frequency_variance": 11.7906130319511,
+      "decay_rate": 19.786965363530047,
+      "decay_variance": 360.92868771351283,
+      "amplitude": 0.8220748196943612,
       "observers": [
         "LPC",
-        "Autocorrelation"
+        "STFT",
+        "Autocorrelation",
+        "Filterbank"
+      ],
+      "agreement_count": 4,
+      "agreement_rate": 0.5714285714285714
+    },
+    {
+      "frequency": 2330.1259830239087,
+      "frequency_variance": 612.2767313421659,
+      "decay_rate": 5.175928613155652,
+      "decay_variance": 0.8685256324036603,
+      "amplitude": 0.01715131808677041,
+      "observers": [
+        "STFT",
+        "Wavelet",
+        "Matrix Pencil",
+        "Filterbank"
+      ],
+      "agreement_count": 4,
+      "agreement_rate": 0.5714285714285714
+    },
+    {
+      "frequency": 365.17846526352724,
+      "frequency_variance": 24.328332282995902,
+      "decay_rate": 22.01319408173845,
+      "decay_variance": 581.3392809493067,
+      "amplitude": 0.42516739799860104,
+      "observers": [
+        "LPC",
+        "Autocorrelation",
+        "Prony"
+      ],
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
+    },
+    {
+      "frequency": 10976.954966526311,
+      "frequency_variance": 259.0393502591836,
+      "decay_rate": 16.897116225306405,
+      "decay_variance": 111.65581884473654,
+      "amplitude": 0.0073366506086014055,
+      "observers": [
+        "STFT",
+        "Matrix Pencil",
+        "Filterbank"
+      ],
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
+    },
+    {
+      "frequency": 341.5635986038009,
+      "frequency_variance": 8.125666367444175,
+      "decay_rate": 29.068288871170562,
+      "decay_variance": 789.5196507564169,
+      "amplitude": 0.2335147398894976,
+      "observers": [
+        "LPC",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 24.76722221447099,
+      "frequency_variance": 0.017546769279653346,
+      "decay_rate": 42.69776480555129,
+      "decay_variance": 1286.7199335797386,
+      "amplitude": 0.20227370271320086,
+      "observers": [
+        "LPC",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 315.5628116153566,
+      "frequency_variance": 18.68957573240693,
+      "decay_rate": 45.007805412858076,
+      "decay_variance": 1862.9936547437921,
+      "amplitude": 0.15836763456266834,
+      "observers": [
+        "LPC",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 196.3878488346022,
+      "frequency_variance": 0.22041286725866707,
+      "decay_rate": 7.215266006333486,
+      "decay_variance": 0.5354584530973457,
+      "amplitude": 0.11812855424623213,
+      "observers": [
+        "Autocorrelation",
+        "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 271.48334109618054,
+      "frequency_variance": 0.6111682302875565,
+      "decay_rate": 4.808665515173725,
+      "decay_variance": 4.240073118422642,
+      "amplitude": 0.11577320926547756,
+      "observers": [
+        "Wavelet",
+        "Prony"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
@@ -46,34 +130,8 @@
       "decay_variance": 0.0019965987161605072,
       "amplitude": 0.023630033447721858,
       "observers": [
-        "Filterbank",
-        "STFT"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 2345.7551070653,
-      "frequency_variance": 4.020454343314478,
-      "decay_rate": 5.7289198768690826,
-      "decay_variance": 8.870680927858803e-05,
-      "amplitude": 0.017504948355699365,
-      "observers": [
-        "Filterbank",
-        "STFT"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 10979.85463171052,
-      "frequency_variance": 235.26238777693106,
-      "decay_rate": 15.443074453778088,
-      "decay_variance": 0.9958175107093638,
-      "amplitude": 0.0070744140792432415,
-      "observers": [
-        "Filterbank",
-        "STFT"
+        "STFT",
+        "Filterbank"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
@@ -85,8 +143,8 @@
       "decay_variance": 0.1287648179841778,
       "amplitude": 0.007049965592319593,
       "observers": [
-        "Filterbank",
-        "STFT"
+        "STFT",
+        "Filterbank"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
@@ -98,8 +156,8 @@
       "decay_variance": 0.18821663184406315,
       "amplitude": 0.004867045819303364,
       "observers": [
-        "Filterbank",
-        "STFT"
+        "STFT",
+        "Filterbank"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
@@ -111,18 +169,31 @@
       "decay_variance": 0.07877297847628476,
       "amplitude": 0.004820113248923685,
       "observers": [
-        "Filterbank",
-        "STFT"
+        "STFT",
+        "Filterbank"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 379.8544827994782,
+      "frequency": 16427.72265625,
+      "frequency_variance": 3.8606109619140625,
+      "decay_rate": 34.49996695986816,
+      "decay_variance": 459.4488321333399,
+      "amplitude": 0.0017272566395401213,
+      "observers": [
+        "STFT",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 383.72403013820855,
       "frequency_variance": 0.0,
-      "decay_rate": 135.4371175399563,
+      "decay_rate": 52.14783822282899,
       "decay_variance": 0.0,
-      "amplitude": 0.8544021594898601,
+      "amplitude": 1.0718883353219542,
       "observers": [
         "LPC"
       ],
@@ -130,11 +201,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 423.54873903014135,
+      "frequency": 414.4763850318235,
       "frequency_variance": 0.0,
-      "decay_rate": 135.7190236154225,
+      "decay_rate": 57.389730010757766,
       "decay_variance": 0.0,
-      "amplitude": 0.2923165080881477,
+      "amplitude": 0.3926090295904733,
       "observers": [
         "LPC"
       ],
@@ -142,11 +213,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 336.7246966758234,
+      "frequency": 443.66803146047107,
       "frequency_variance": 0.0,
-      "decay_rate": 135.31775925000778,
+      "decay_rate": 59.80345727131333,
       "decay_variance": 0.0,
-      "amplitude": 0.21533070805941887,
+      "amplitude": 0.1815731204686238,
       "observers": [
         "LPC"
       ],
@@ -154,61 +225,25 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 445.1895864890447,
+      "frequency": 295.30731201171875,
       "frequency_variance": 0.0,
-      "decay_rate": 136.90921449567023,
+      "decay_rate": 2.3604018688201904,
       "decay_variance": 0.0,
-      "amplitude": 0.17631617620091655,
+      "amplitude": 0.12760174919303297,
       "observers": [
-        "LPC"
+        "Prony"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 314.41224835318815,
+      "frequency": 49.309452056884766,
       "frequency_variance": 0.0,
-      "decay_rate": 130.48940699776466,
+      "decay_rate": 6.4291486740112305,
       "decay_variance": 0.0,
-      "amplitude": 0.15611842457311845,
+      "amplitude": 0.11552716943213598,
       "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 42.47836278782761,
-      "frequency_variance": 0.0,
-      "decay_rate": 34.82510966751578,
-      "decay_variance": 0.0,
-      "amplitude": 0.1318920869659207,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 195.91836734693877,
-      "frequency_variance": 0.0,
-      "decay_rate": 7.947016273226056,
-      "decay_variance": 0.0,
-      "amplitude": 0.11784446278130362,
-      "observers": [
-        "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 272.2651135888455,
-      "frequency_variance": 0.0,
-      "decay_rate": 6.8678092980171295,
-      "decay_variance": 0.0,
-      "amplitude": 0.11621443412484807,
-      "observers": [
-        "Wavelet"
+        "Prony"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -238,23 +273,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 130.79019073569484,
-      "frequency_variance": 0.0,
-      "decay_rate": 14.411141420904883,
-      "decay_variance": 0.0,
-      "amplitude": 0.07633587533150457,
-      "observers": [
-        "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 126.3157894736842,
-      "frequency_variance": 0.0,
-      "decay_rate": 10.0,
-      "decay_variance": 0.0,
-      "amplitude": 0.07479336790552961,
+      "frequency": 128.5529901046895,
+      "frequency_variance": 5.005066663370581,
+      "decay_rate": 12.205570710452442,
+      "decay_variance": 4.864542158805688,
+      "amplitude": 0.0755646216185171,
       "observers": [
         "Autocorrelation"
       ],
@@ -269,30 +292,6 @@
       "amplitude": 0.07446766989240217,
       "observers": [
         "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 2287.441471871285,
-      "frequency_variance": 0.0,
-      "decay_rate": 5.683769043214277,
-      "decay_variance": 0.0,
-      "amplitude": 0.007653631731857238,
-      "observers": [
-        "Wavelet"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 16429.6875,
-      "frequency_variance": 0.0,
-      "decay_rate": 55.93472453100341,
-      "decay_variance": 0.0,
-      "amplitude": 0.00205871459228924,
-      "observers": [
-        "STFT"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -324,194 +323,216 @@
   ],
   "mug": [
     {
-      "frequency": 279.95093365408184,
-      "frequency_variance": 0.4765368899343054,
-      "decay_rate": 23.28931372311425,
-      "decay_variance": 0.3115325872862984,
-      "amplitude": 0.4653305208006766,
+      "frequency": 511.7518550395661,
+      "frequency_variance": 11.065553158301562,
+      "decay_rate": 42.890586055793996,
+      "decay_variance": 943.354100830485,
+      "amplitude": 0.31732385261986024,
       "observers": [
-        "Filterbank",
-        "LPC"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 508.30071041579447,
-      "frequency_variance": 0.754009786261987,
-      "decay_rate": 88.18250498395955,
-      "decay_variance": 311.9893771272226,
-      "amplitude": 0.3301944645867135,
-      "observers": [
+        "Wavelet",
         "Matrix Pencil",
-        "Wavelet"
+        "Prony"
       ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 492.4631424289371,
-      "frequency_variance": 0.07597874863035427,
-      "decay_rate": 49.87439884504881,
-      "decay_variance": 62.764241533931695,
-      "amplitude": 0.28828949474598264,
+      "frequency": 493.0265350567914,
+      "frequency_variance": 0.6854750053280366,
+      "decay_rate": 55.20297600005207,
+      "decay_variance": 98.63029668293309,
+      "amplitude": 0.31325916352257344,
       "observers": [
-        "Filterbank",
-        "STFT"
-      ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
-    },
-    {
-      "frequency": 184.93870402802102,
-      "frequency_variance": 0.0,
-      "decay_rate": 22.785256398463343,
-      "decay_variance": 0.0,
-      "amplitude": 4.376999700898532,
-      "observers": [
+        "STFT",
+        "Matrix Pencil",
         "Filterbank"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 189.72332015810278,
-      "frequency_variance": 0.0,
-      "decay_rate": 59.60870938809963,
-      "decay_variance": 0.0,
-      "amplitude": 2.539081780478898,
+      "frequency": 395.0084454975268,
+      "frequency_variance": 3.4553201862347023,
+      "decay_rate": 63.170346695251794,
+      "decay_variance": 5088.490099171704,
+      "amplitude": 0.17929204977518107,
       "observers": [
-        "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 194.52995134645994,
-      "frequency_variance": 0.0,
-      "decay_rate": 35.240605397119815,
-      "decay_variance": 0.0,
-      "amplitude": 2.3693610883688705,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 167.31848198036226,
-      "frequency_variance": 0.0,
-      "decay_rate": 42.86989542815119,
-      "decay_variance": 0.0,
-      "amplitude": 2.15917939304632,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 204.75733947753906,
-      "frequency_variance": 0.0,
-      "decay_rate": 36.08247375488281,
-      "decay_variance": 0.0,
-      "amplitude": 1.9558999313407421,
-      "observers": [
+        "Matrix Pencil",
+        "Filterbank",
         "Prony"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 153.97317504882812,
-      "frequency_variance": 0.0,
-      "decay_rate": 41.57435607910156,
-      "decay_variance": 0.0,
-      "amplitude": 1.713055448186681,
+      "frequency": 187.3310120930619,
+      "frequency_variance": 5.723137878059636,
+      "decay_rate": 41.196982893281486,
+      "decay_variance": 338.99167251998847,
+      "amplitude": 3.458040740688715,
       "observers": [
+        "Autocorrelation",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 280.76015148333204,
+      "frequency_variance": 0.014137522693627311,
+      "decay_rate": 36.536483871222394,
+      "decay_variance": 190.58689320163856,
+      "amplitude": 0.46075237046032513,
+      "observers": [
+        "LPC",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 237.46232150074096,
+      "frequency_variance": 9.531554048937386,
+      "decay_rate": 27.75942189321303,
+      "decay_variance": 15.292935823486427,
+      "amplitude": 0.30933563567082734,
+      "observers": [
+        "STFT",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 321.47433696152245,
+      "frequency_variance": 4.140237175322988,
+      "decay_rate": 24.246496344290417,
+      "decay_variance": 3.4234818994584426,
+      "amplitude": 0.2953729332842987,
+      "observers": [
+        "Filterbank",
         "Prony"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 222.44616543313626,
-      "frequency_variance": 0.0,
-      "decay_rate": 29.04417155403629,
-      "decay_variance": 0.0,
-      "amplitude": 1.406294371130323,
+      "frequency": 444.0055389404297,
+      "frequency_variance": 2.3775987348053604,
+      "decay_rate": 170.31685649603605,
+      "decay_variance": 28959.123950741112,
+      "amplitude": 0.22741619668518714,
       "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 140.04025770282604,
-      "frequency_variance": 0.0,
-      "decay_rate": 53.9141460733755,
-      "decay_variance": 0.0,
-      "amplitude": 1.3471045983472123,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 250.80285777101835,
-      "frequency_variance": 0.0,
-      "decay_rate": 26.052357807569173,
-      "decay_variance": 0.0,
-      "amplitude": 0.9023110785806198,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 111.58437269629489,
-      "frequency_variance": 0.0,
-      "decay_rate": 80.79513790246186,
-      "decay_variance": 0.0,
-      "amplitude": 0.880499257817787,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 255.27015686035156,
-      "frequency_variance": 0.0,
-      "decay_rate": 22.93657875061035,
-      "decay_variance": 0.0,
-      "amplitude": 0.8279486642158029,
-      "observers": [
+        "Matrix Pencil",
         "Prony"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 103.39289855957031,
-      "frequency_variance": 0.0,
-      "decay_rate": 48.48162078857422,
-      "decay_variance": 0.0,
-      "amplitude": 0.794743610368975,
+      "frequency": 363.26009839939394,
+      "frequency_variance": 25.22238434314263,
+      "decay_rate": 14.92519166809626,
+      "decay_variance": 61.83726304213299,
+      "amplitude": 0.20487342855069313,
       "observers": [
+        "Filterbank",
         "Prony"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 808.4447021484375,
+      "frequency_variance": 133.8580078035593,
+      "decay_rate": 370.6580847416605,
+      "decay_variance": 117664.1549411724,
+      "amplitude": 0.013675450899755906,
+      "observers": [
+        "STFT",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 175.96701252255184,
+      "frequency_variance": 0.0,
+      "decay_rate": 70.80274620634025,
+      "decay_variance": 0.0,
+      "amplitude": 2.480888086325944,
+      "observers": [
+        "LPC"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 98.27882782345687,
+      "frequency": 201.55827549091777,
       "frequency_variance": 0.0,
-      "decay_rate": 136.05420599345828,
+      "decay_rate": 66.16222834759346,
       "decay_variance": 0.0,
-      "amplitude": 0.7500291952663972,
+      "amplitude": 2.093457206521227,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 151.0772217456152,
+      "frequency_variance": 0.0,
+      "decay_rate": 73.18457917166819,
+      "decay_variance": 0.0,
+      "amplitude": 1.6304384999274788,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 227.95408668117383,
+      "frequency_variance": 0.0,
+      "decay_rate": 61.66269237744596,
+      "decay_variance": 0.0,
+      "amplitude": 1.2516873475834907,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 126.38004881758911,
+      "frequency_variance": 0.0,
+      "decay_rate": 72.71667856716317,
+      "decay_variance": 0.0,
+      "amplitude": 1.0840736925007117,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 254.49631702661839,
+      "frequency_variance": 0.0,
+      "decay_rate": 57.08927607253915,
+      "decay_variance": 0.0,
+      "amplitude": 0.8376514440502896,
+      "observers": [
+        "LPC"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 101.49022160288946,
+      "frequency_variance": 0.0,
+      "decay_rate": 69.76317100646386,
+      "decay_variance": 0.0,
+      "amplitude": 0.7774870144633051,
       "observers": [
         "LPC"
       ],
@@ -531,23 +552,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 240.5496430014819,
+      "frequency": 302.69189453125,
       "frequency_variance": 0.0,
-      "decay_rate": 23.84880355035644,
+      "decay_rate": 3.576411724090576,
       "decay_variance": 0.0,
-      "amplitude": 0.5619758071140709,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 51.746742248535156,
-      "frequency_variance": 0.0,
-      "decay_rate": 57.15147018432617,
-      "decay_variance": 0.0,
-      "amplitude": 0.513988481103555,
+      "amplitude": 0.48733122526823075,
       "observers": [
         "Prony"
       ],
@@ -555,11 +564,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 303.8345947265625,
+      "frequency": 344.3835754394531,
       "frequency_variance": 0.0,
-      "decay_rate": 15.88416576385498,
+      "decay_rate": 16.115985870361328,
       "decay_variance": 0.0,
-      "amplitude": 0.4824046531665365,
+      "amplitude": 0.3247958464410271,
       "observers": [
         "Prony"
       ],
@@ -567,23 +576,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 475.7055969238281,
+      "frequency": 541.0531005859375,
       "frequency_variance": 0.0,
-      "decay_rate": 114.17606353759766,
+      "decay_rate": 0.4520437717437744,
       "decay_variance": 0.0,
-      "amplitude": 0.3317393047447709,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 351.2836608886719,
-      "frequency_variance": 0.0,
-      "decay_rate": 16.73990249633789,
-      "decay_variance": 0.0,
-      "amplitude": 0.3030464894707377,
+      "amplitude": 0.2126974698033152,
       "observers": [
         "Prony"
       ],
@@ -591,23 +588,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 453.8774108886719,
+      "frequency": 585.6907348632812,
       "frequency_variance": 0.0,
-      "decay_rate": 1.0872009992599487,
+      "decay_rate": 164.74256896972656,
       "decay_variance": 0.0,
-      "amplitude": 0.2571940679448554,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 384.75262451171875,
-      "frequency_variance": 0.0,
-      "decay_rate": 205.70999145507812,
-      "decay_variance": 0.0,
-      "amplitude": 0.2290632512175856,
+      "amplitude": 0.11960795475932469,
       "observers": [
         "Matrix Pencil"
       ],
@@ -615,47 +600,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 319.4395796847636,
+      "frequency": 622.547607421875,
       "frequency_variance": 0.0,
-      "decay_rate": 22.396230985089623,
+      "decay_rate": 375.87274169921875,
       "decay_variance": 0.0,
-      "amplitude": 0.19612054084586886,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 358.23790920113163,
-      "frequency_variance": 0.0,
-      "decay_rate": 22.788858945018205,
-      "decay_variance": 0.0,
-      "amplitude": 0.1474290568345964,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 394.4496834164085,
-      "frequency_variance": 0.0,
-      "decay_rate": 23.090724581681286,
-      "decay_variance": 0.0,
-      "amplitude": 0.11749729408765332,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 593.5323486328125,
-      "frequency_variance": 0.0,
-      "decay_rate": 265.34234619140625,
-      "decay_variance": 0.0,
-      "amplitude": 0.10882390407100266,
+      "amplitude": 0.07772277347354647,
       "observers": [
         "Matrix Pencil"
       ],
@@ -663,59 +612,11 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 234.375,
+      "frequency": 684.475830078125,
       "frequency_variance": 0.0,
-      "decay_rate": 31.67004023606962,
+      "decay_rate": 206.65530395507812,
       "decay_variance": 0.0,
-      "amplitude": 0.05669546422758376,
-      "observers": [
-        "STFT"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 811.6089477539062,
-      "frequency_variance": 0.0,
-      "decay_rate": 224.4706268310547,
-      "decay_variance": 0.0,
-      "amplitude": 0.027731272222622085,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 945.3571166992188,
-      "frequency_variance": 0.0,
-      "decay_rate": 268.97021484375,
-      "decay_variance": 0.0,
-      "amplitude": 0.01824341049846616,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 1119.5830078125,
-      "frequency_variance": 0.0,
-      "decay_rate": 210.50003051757812,
-      "decay_variance": 0.0,
-      "amplitude": 0.0122894674917346,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 1329.940673828125,
-      "frequency_variance": 0.0,
-      "decay_rate": 157.1813201904297,
-      "decay_variance": 0.0,
-      "amplitude": 0.008471947055515983,
+      "amplitude": 0.04232900964636662,
       "observers": [
         "Matrix Pencil"
       ],
@@ -733,117 +634,164 @@
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 796.875,
-      "frequency_variance": 0.0,
-      "decay_rate": 27.635993702071037,
-      "decay_variance": 0.0,
-      "amplitude": 0.0001892306801403738,
-      "observers": [
-        "STFT"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
     }
   ],
   "metal_bowl": [
     {
-      "frequency": 700.5791673487055,
-      "frequency_variance": 14.245629377506319,
-      "decay_rate": 53.81063456880096,
-      "decay_variance": 953.326660949136,
-      "amplitude": 0.9046688593866065,
+      "frequency": 711.3150042660105,
+      "frequency_variance": 41.37195589121372,
+      "decay_rate": 52.23587169637049,
+      "decay_variance": 2290.7553390963285,
+      "amplitude": 0.7651696626649436,
       "observers": [
-        "Filterbank",
+        "LPC",
         "Autocorrelation",
-        "Matrix Pencil"
+        "Matrix Pencil",
+        "Prony"
+      ],
+      "agreement_count": 4,
+      "agreement_rate": 0.5714285714285714
+    },
+    {
+      "frequency": 692.2780030734613,
+      "frequency_variance": 19.30667474390479,
+      "decay_rate": 22.326423757556768,
+      "decay_variance": 356.49440055071653,
+      "amplitude": 0.8962145276125592,
+      "observers": [
+        "LPC",
+        "Filterbank",
+        "Prony"
       ],
       "agreement_count": 3,
       "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 654.8041571612766,
-      "frequency_variance": 0.5709257031272228,
-      "decay_rate": 70.88883667045764,
-      "decay_variance": 4839.173025149102,
-      "amplitude": 0.47654866123062045,
+      "frequency": 750.2762081968546,
+      "frequency_variance": 105.10352208279281,
+      "decay_rate": 35.080289632498,
+      "decay_variance": 1705.5723572850748,
+      "amplitude": 0.4026284120819705,
       "observers": [
-        "Wavelet",
+        "LPC",
+        "Matrix Pencil",
         "Prony"
+      ],
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
+    },
+    {
+      "frequency": 674.9248635788831,
+      "frequency_variance": 4.6163174392343995,
+      "decay_rate": 74.53023013581475,
+      "decay_variance": 2721.8453732265425,
+      "amplitude": 0.6742322370987466,
+      "observers": [
+        "LPC",
+        "Matrix Pencil"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 902.6812638692288,
-      "frequency_variance": 10.11112184243638,
-      "decay_rate": 333.0824125268391,
-      "decay_variance": 82128.6572875628,
-      "amplitude": 0.09708991994438701,
+      "frequency": 653.3384113350312,
+      "frequency_variance": 0.5043124111366086,
+      "decay_rate": 88.24080531620125,
+      "decay_variance": 2726.1134278716677,
+      "amplitude": 0.46647762719192387,
+      "observers": [
+        "LPC",
+        "Wavelet"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 49.663405350168134,
+      "frequency_variance": 0.549109426216494,
+      "decay_rate": 232.34134815738298,
+      "decay_variance": 42344.499872845656,
+      "amplitude": 0.42928604977724155,
+      "observers": [
+        "LPC",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 88.19451520742615,
+      "frequency_variance": 0.5818962111727699,
+      "decay_rate": 7.386211633682251,
+      "decay_variance": 6.831889623898007,
+      "amplitude": 0.3406770503907558,
+      "observers": [
+        "Autocorrelation",
+        "Matrix Pencil"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 621.1425071592613,
+      "frequency_variance": 1.1728844122378983,
+      "decay_rate": 79.01624211380832,
+      "decay_variance": 1032.9850111062922,
+      "amplitude": 0.2685741514347257,
+      "observers": [
+        "Matrix Pencil",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 781.4407083862363,
+      "frequency_variance": 24.883822907704353,
+      "decay_rate": 23.519164528269297,
+      "decay_variance": 512.8659823804738,
+      "amplitude": 0.23259757423185667,
       "observers": [
         "Filterbank",
-        "Matrix Pencil"
+        "Prony"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 732.9954223632812,
-      "frequency_variance": 0.0,
-      "decay_rate": 782.7928466796875,
-      "decay_variance": 0.0,
-      "amplitude": 0.5169307708295341,
+      "frequency": 818.2193298339844,
+      "frequency_variance": 57.49043731484562,
+      "decay_rate": 30.306754112243652,
+      "decay_variance": 861.4907641964464,
+      "amplitude": 0.20382981772811615,
       "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 49.133419036865234,
-      "frequency_variance": 0.0,
-      "decay_rate": 19.332963943481445,
-      "decay_variance": 0.0,
-      "amplitude": 0.43051509873282257,
-      "observers": [
+        "Matrix Pencil",
         "Prony"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 55.29381561279297,
-      "frequency_variance": 0.0,
-      "decay_rate": 251.86892700195312,
-      "decay_variance": 0.0,
-      "amplitude": 0.41625069016887006,
+      "frequency": 554.2046067542549,
+      "frequency_variance": 17.664349664061767,
+      "decay_rate": 71.57381385946404,
+      "decay_variance": 566.5128047918556,
+      "amplitude": 0.1613554845847699,
       "observers": [
-        "Matrix Pencil"
+        "Matrix Pencil",
+        "Filterbank"
       ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 756.77001953125,
+      "frequency": 29.19275495651168,
       "frequency_variance": 0.0,
-      "decay_rate": 5.316074848175049,
+      "decay_rate": 23.048865726901024,
       "decay_variance": 0.0,
-      "amplitude": 0.36178968325329497,
+      "amplitude": 0.48146946139640084,
       "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 87.43169398907104,
-      "frequency_variance": 0.0,
-      "decay_rate": 10.0,
-      "decay_variance": 0.0,
-      "amplitude": 0.3422410820237709,
-      "observers": [
-        "Autocorrelation"
+        "LPC"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -861,18 +809,6 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 97.15919494628906,
-      "frequency_variance": 0.0,
-      "decay_rate": 0.12588517367839813,
-      "decay_variance": 0.0,
-      "amplitude": 0.32202486970893135,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
       "frequency": 99.79209979209979,
       "frequency_variance": 0.0,
       "decay_rate": 192.57193047886332,
@@ -880,6 +816,18 @@
       "amplitude": 0.3165117256062879,
       "observers": [
         "Autocorrelation"
+      ],
+      "agreement_count": 1,
+      "agreement_rate": 0.14285714285714285
+    },
+    {
+      "frequency": 105.89263534545898,
+      "frequency_variance": 8.111704664770514e-05,
+      "decay_rate": 166.50388062000275,
+      "decay_variance": 26734.96282605166,
+      "amplitude": 0.30363379177060656,
+      "observers": [
+        "Prony"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -897,18 +845,6 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 605.4243774414062,
-      "frequency_variance": 0.0,
-      "decay_rate": 1.1959224939346313,
-      "decay_variance": 0.0,
-      "amplitude": 0.2790160831279651,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
       "frequency": 139.94169096209913,
       "frequency_variance": 0.0,
       "decay_rate": 181.49562827352176,
@@ -916,42 +852,6 @@
       "amplitude": 0.24759786560232314,
       "observers": [
         "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 806.3113403320312,
-      "frequency_variance": 0.0,
-      "decay_rate": 2.8239128589630127,
-      "decay_variance": 0.0,
-      "amplitude": 0.22134743639695473,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 622.2255050411788,
-      "frequency_variance": 0.0,
-      "decay_rate": 46.87615793367133,
-      "decay_variance": 0.0,
-      "amplitude": 0.2181365567698674,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 776.4523396240352,
-      "frequency_variance": 0.0,
-      "decay_rate": 46.16570912960912,
-      "decay_variance": 0.0,
-      "amplitude": 0.2014425847361069,
-      "observers": [
-        "Filterbank"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -969,42 +869,6 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 189.35366821289062,
-      "frequency_variance": 0.0,
-      "decay_rate": 492.9910583496094,
-      "decay_variance": 0.0,
-      "amplitude": 0.18620386366412198,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 536.829345703125,
-      "frequency_variance": 0.0,
-      "decay_rate": 598.0853271484375,
-      "decay_variance": 0.0,
-      "amplitude": 0.18457392838996445,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 856.51025390625,
-      "frequency_variance": 0.0,
-      "decay_rate": 0.06294254958629608,
-      "decay_variance": 0.0,
-      "amplitude": 0.15662511408870503,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
       "frequency": 233.0097087378641,
       "frequency_variance": 0.0,
       "decay_rate": 173.0826678537297,
@@ -1012,30 +876,6 @@
       "amplitude": 0.14986311035191063,
       "observers": [
         "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 254.6165313720703,
-      "frequency_variance": 0.0,
-      "decay_rate": 5.673743724822998,
-      "decay_variance": 0.0,
-      "amplitude": 0.13184994311252138,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 558.4075045241349,
-      "frequency_variance": 0.0,
-      "decay_rate": 47.77228439617417,
-      "decay_variance": 0.0,
-      "amplitude": 0.12710599623526392,
-      "observers": [
-        "Filterbank"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -1053,73 +893,13 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 1090.287841796875,
+      "frequency": 905.8610628947077,
       "frequency_variance": 0.0,
-      "decay_rate": 666.1874389648438,
+      "decay_rate": 46.501433940396936,
       "decay_variance": 0.0,
-      "amplitude": 0.055498901420404895,
+      "amplitude": 0.07180980020092827,
       "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 1262.2294921875,
-      "frequency_variance": 0.0,
-      "decay_rate": 520.7658081054688,
-      "decay_variance": 0.0,
-      "amplitude": 0.031242803476047465,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 4319.97487157235,
-      "frequency_variance": 0.0,
-      "decay_rate": 0.05,
-      "decay_variance": 0.0,
-      "amplitude": 0.001259275497360536,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 4414.265245608213,
-      "frequency_variance": 0.0,
-      "decay_rate": 968.1888931477358,
-      "decay_variance": 0.0,
-      "amplitude": 0.0012031135633830518,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 5647.854456886354,
-      "frequency_variance": 414.91342161229676,
-      "decay_rate": 0.05000000000000001,
-      "decay_variance": 4.81482486096809e-35,
-      "amplitude": 0.0007455733108384615,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 5714.335357098687,
-      "frequency_variance": 254.59029391908464,
-      "decay_rate": 510.6741567571293,
-      "decay_variance": 521474.0589278587,
-      "amplitude": 0.0007291105101619724,
-      "observers": [
-        "LPC"
+        "Filterbank"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -1127,38 +907,71 @@
   ],
   "wood": [
     {
-      "frequency": 656.5622003647372,
-      "frequency_variance": 3.2132556394131613,
-      "decay_rate": 126.37149459298006,
-      "decay_variance": 2205.7704897790745,
-      "amplitude": 0.26499910203671323,
+      "frequency": 660.4146482196759,
+      "frequency_variance": 14.961028919855808,
+      "decay_rate": 81.20214060728237,
+      "decay_variance": 4843.841654755101,
+      "amplitude": 0.26325392811882475,
       "observers": [
-        "Wavelet",
         "LPC",
-        "Autocorrelation"
+        "Filterbank",
+        "Wavelet",
+        "Autocorrelation",
+        "Matrix Pencil",
+        "Prony"
+      ],
+      "agreement_count": 6,
+      "agreement_rate": 0.8571428571428571
+    },
+    {
+      "frequency": 493.9055772590658,
+      "frequency_variance": 24.72367856487886,
+      "decay_rate": 37.47622562058915,
+      "decay_variance": 1181.546118261673,
+      "amplitude": 0.2572898586785125,
+      "observers": [
+        "LPC",
+        "Matrix Pencil",
+        "Filterbank",
+        "Prony"
+      ],
+      "agreement_count": 4,
+      "agreement_rate": 0.5714285714285714
+    },
+    {
+      "frequency": 391.2015421853116,
+      "frequency_variance": 21.54077623986049,
+      "decay_rate": 55.86924032178931,
+      "decay_variance": 3009.5825913676103,
+      "amplitude": 0.2679505264103877,
+      "observers": [
+        "LPC",
+        "Matrix Pencil",
+        "Prony"
       ],
       "agreement_count": 3,
       "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 497.3875878563406,
-      "frequency_variance": 0.02751582291282853,
-      "decay_rate": 102.38698918090435,
-      "decay_variance": 694.0882558444285,
-      "amplitude": 0.27376266151868345,
+      "frequency": 686.9945848125108,
+      "frequency_variance": 44.89035068224147,
+      "decay_rate": 15.764635878057208,
+      "decay_variance": 167.07590811290527,
+      "amplitude": 0.24132307542587214,
       "observers": [
-        "Matrix Pencil",
-        "LPC"
+        "LPC",
+        "Filterbank",
+        "Prony"
       ],
-      "agreement_count": 2,
-      "agreement_rate": 0.2857142857142857
+      "agreement_count": 3,
+      "agreement_rate": 0.42857142857142855
     },
     {
-      "frequency": 452.03814725006816,
-      "frequency_variance": 2.7678844191820673,
-      "decay_rate": 43.02632486384687,
-      "decay_variance": 1759.6101269744277,
-      "amplitude": 0.26734584757969243,
+      "frequency": 472.494954885972,
+      "frequency_variance": 27.639676687611125,
+      "decay_rate": 17.130770317972345,
+      "decay_variance": 285.9640309381817,
+      "amplitude": 0.27607833620911837,
       "observers": [
         "LPC",
         "Prony"
@@ -1167,37 +980,50 @@
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 666.8906367643353,
-      "frequency_variance": 7.100743989519542,
-      "decay_rate": 89.3990396603636,
-      "decay_variance": 5455.6232310144815,
-      "amplitude": 0.256527133569678,
+      "frequency": 413.84988886562917,
+      "frequency_variance": 17.93221680048061,
+      "decay_rate": 18.175627706749836,
+      "decay_variance": 325.68993170255226,
+      "amplitude": 0.27159534219493286,
       "observers": [
-        "Filterbank",
-        "Matrix Pencil"
+        "LPC",
+        "Prony"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 482.466243638136,
-      "frequency_variance": 12.728518993157195,
-      "decay_rate": 46.71833030039577,
-      "decay_variance": 1002.0918598072012,
-      "amplitude": 0.23353428591382694,
+      "frequency": 437.348239916239,
+      "frequency_variance": 28.24823701835408,
+      "decay_rate": 21.92959237090102,
+      "decay_variance": 473.6565813152719,
+      "amplitude": 0.270325995132915,
       "observers": [
-        "Filterbank",
-        "LPC"
+        "LPC",
+        "Prony"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 603.7721625701413,
-      "frequency_variance": 0.9835748966288094,
-      "decay_rate": 5.233272844191281,
-      "decay_variance": 24.24854683756182,
-      "amplitude": 0.14262249046040432,
+      "frequency": 514.4990122305121,
+      "frequency_variance": 28.408520993471974,
+      "decay_rate": 83.20940845941861,
+      "decay_variance": 2271.2997046797163,
+      "amplitude": 0.24327604125604785,
+      "observers": [
+        "Wavelet",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 636.748322629395,
+      "frequency_variance": 6.920612432225244,
+      "decay_rate": 7.374746230235938,
+      "decay_variance": 53.65190733735558,
+      "amplitude": 0.20024804427197113,
       "observers": [
         "Filterbank",
         "Prony"
@@ -1206,24 +1032,37 @@
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 755.303907294156,
-      "frequency_variance": 0.5671589198313692,
-      "decay_rate": 7.111554303353732,
-      "decay_variance": 43.06292475736936,
-      "amplitude": 0.1264459782333805,
+      "frequency": 718.4087550244502,
+      "frequency_variance": 36.40619969507822,
+      "decay_rate": 43.28813022990673,
+      "decay_variance": 880.0802664734124,
+      "amplitude": 0.16043561511830423,
       "observers": [
-        "Filterbank",
-        "Prony"
+        "Matrix Pencil",
+        "Filterbank"
       ],
       "agreement_count": 2,
       "agreement_rate": 0.2857142857142857
     },
     {
-      "frequency": 677.2726028569662,
+      "frequency": 600.6269599334225,
+      "frequency_variance": 4.63734341923085,
+      "decay_rate": 56.33290078603813,
+      "decay_variance": 2132.162632655846,
+      "amplitude": 0.13979203256742212,
+      "observers": [
+        "Matrix Pencil",
+        "Filterbank"
+      ],
+      "agreement_count": 2,
+      "agreement_rate": 0.2857142857142857
+    },
+    {
+      "frequency": 453.8525394830405,
       "frequency_variance": 0.0,
-      "decay_rate": 74.5913928130901,
+      "decay_rate": 37.60330620688533,
       "decay_variance": 0.0,
-      "amplitude": 0.27214222906785956,
+      "amplitude": 0.26689471093995665,
       "observers": [
         "LPC"
       ],
@@ -1231,73 +1070,13 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 411.4182917673809,
+      "frequency": 365.9352722167969,
       "frequency_variance": 0.0,
-      "decay_rate": 77.98831742520574,
+      "decay_rate": 211.9512176513672,
       "decay_variance": 0.0,
-      "amplitude": 0.2715175600722168,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 432.4348853688938,
-      "frequency_variance": 0.0,
-      "decay_rate": 132.73823597198074,
-      "decay_variance": 0.0,
-      "amplitude": 0.27111712415601696,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 403.552734375,
-      "frequency_variance": 0.0,
-      "decay_rate": 0.9241192936897278,
-      "decay_variance": 0.0,
-      "amplitude": 0.27060222750987933,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 381.8295603896925,
-      "frequency_variance": 0.0,
-      "decay_rate": 77.43071419095838,
-      "decay_variance": 0.0,
-      "amplitude": 0.2652678725343658,
-      "observers": [
-        "LPC"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 374.587158203125,
-      "frequency_variance": 0.0,
-      "decay_rate": 455.10498046875,
-      "decay_variance": 0.0,
-      "amplitude": 0.26270524656170113,
+      "amplitude": 0.2592088980900361,
       "observers": [
         "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 509.16904778471394,
-      "frequency_variance": 0.0,
-      "decay_rate": 130.8675631098005,
-      "decay_variance": 0.0,
-      "amplitude": 0.2538867063925049,
-      "observers": [
-        "Wavelet"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -1315,85 +1094,13 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 519.8289766763102,
+      "frequency": 265.25775146484375,
       "frequency_variance": 0.0,
-      "decay_rate": 35.55125380903673,
+      "decay_rate": 312.4945983886719,
       "decay_variance": 0.0,
-      "amplitude": 0.2326653761195908,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 705.8955688476562,
-      "frequency_variance": 0.0,
-      "decay_rate": 0.9441468119621277,
-      "decay_variance": 0.0,
-      "amplitude": 0.23155236188473044,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 611.939453125,
-      "frequency_variance": 0.0,
-      "decay_rate": 547.3875122070312,
-      "decay_variance": 0.0,
-      "amplitude": 0.2133831110856909,
+      "amplitude": 0.202272967971728,
       "observers": [
         "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 257.20281982421875,
-      "frequency_variance": 0.0,
-      "decay_rate": 294.9430847167969,
-      "decay_variance": 0.0,
-      "amplitude": 0.1971643793044267,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 554.8955078125,
-      "frequency_variance": 0.0,
-      "decay_rate": 1.6021995544433594,
-      "decay_variance": 0.0,
-      "amplitude": 0.19553117883973775,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 251.56610107421875,
-      "frequency_variance": 0.0,
-      "decay_rate": 1.0099517107009888,
-      "decay_variance": 0.0,
-      "amplitude": 0.19357183703277356,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 694.3342123454262,
-      "frequency_variance": 0.0,
-      "decay_rate": 15.326704967744302,
-      "decay_variance": 0.0,
-      "amplitude": 0.19218008935750047,
-      "observers": [
-        "Filterbank"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -1406,42 +1113,6 @@
       "amplitude": 0.17893283158938542,
       "observers": [
         "Autocorrelation"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 201.9777069091797,
-      "frequency_variance": 0.0,
-      "decay_rate": 6.73245906829834,
-      "decay_variance": 0.0,
-      "amplitude": 0.1622883936664087,
-      "observers": [
-        "Prony"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 634.1176169384777,
-      "frequency_variance": 0.0,
-      "decay_rate": 14.699492460471875,
-      "decay_variance": 0.0,
-      "amplitude": 0.1617525136308427,
-      "observers": [
-        "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 798.84619140625,
-      "frequency_variance": 0.0,
-      "decay_rate": 545.5470581054688,
-      "decay_variance": 0.0,
-      "amplitude": 0.14469725191759691,
-      "observers": [
-        "Matrix Pencil"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
@@ -1495,18 +1166,6 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 73.17176818847656,
-      "frequency_variance": 0.0,
-      "decay_rate": 73.36975860595703,
-      "decay_variance": 0.0,
-      "amplitude": 0.10897443147229606,
-      "observers": [
-        "Matrix Pencil"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
       "frequency": 83.62369337979094,
       "frequency_variance": 0.0,
       "decay_rate": 10.0,
@@ -1519,25 +1178,13 @@
       "agreement_rate": 0.14285714285714285
     },
     {
-      "frequency": 724.4425100489004,
+      "frequency": 754.5508077523747,
       "frequency_variance": 0.0,
-      "decay_rate": 13.621983421239236,
+      "decay_rate": 13.673789041411291,
       "decay_variance": 0.0,
-      "amplitude": 0.09503267559560559,
+      "amplitude": 0.07023306811059583,
       "observers": [
         "Filterbank"
-      ],
-      "agreement_count": 1,
-      "agreement_rate": 0.14285714285714285
-    },
-    {
-      "frequency": 925.6643676757812,
-      "frequency_variance": 0.0,
-      "decay_rate": 509.9616394042969,
-      "decay_variance": 0.0,
-      "amplitude": 0.06616269213033936,
-      "observers": [
-        "Matrix Pencil"
       ],
       "agreement_count": 1,
       "agreement_rate": 0.14285714285714285
