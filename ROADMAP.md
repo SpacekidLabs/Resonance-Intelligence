@@ -63,6 +63,8 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 10A to track time-varying modal frequency, decay, and amplitude over the first 100 ms. (Completed June 22, 2026)
 - [x] Run Experiment 10B to separate strike excitation from resonator response with deconvolution and reconstruction checks. (Completed June 22, 2026)
 - [x] Run Experiment 11 to replace static modal parameters with time-varying f(t), d(t), and A(t). (Completed June 22, 2026)
+- [x] Run Experiment 12 to analyze the remainder of the dynamic modal model with spectrum, decay, energy, and band-energy metrics. (Completed June 22, 2026)
+- [ ] Design Experiment 13 (Dynamic Excitation Modeling) to separate the remaining broadband transient from the dynamic modal remainder.
 
 ---
 

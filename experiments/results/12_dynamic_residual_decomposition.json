@@ -1,0 +1,294 @@
+{
+  "glass": {
+    "onset_idx": 0,
+    "window_ms": 100.0,
+    "static_rms_ratio": 0.9999341515958936,
+    "static_snr_db": 0.0005719707404892003,
+    "dynamic_rms_ratio": 0.8900755022431893,
+    "dynamic_snr_db": 1.0114630396916504,
+    "residual_static_rms": 0.27877703309059143,
+    "residual_dynamic_rms": 0.24814894795417786,
+    "residual_improvement_pct": 10.986588384542712,
+    "static_decay_rate": 7.0539323669092715,
+    "static_half_life_ms": 98.26393910600451,
+    "dynamic_decay_rate": 7.034964049074968,
+    "dynamic_half_life_ms": 98.52888738656584,
+    "static_energy": {
+      "first_5ms_energy_fraction": 0.09278497099876404,
+      "t50_ms": 31.8140589569161,
+      "t90_ms": 79.18367346938776,
+      "t99_ms": 97.80045351473923,
+      "zero_crossing_rate": 0.07212519845770016
+    },
+    "dynamic_energy": {
+      "first_5ms_energy_fraction": 0.09660229831933975,
+      "t50_ms": 32.517006802721085,
+      "t90_ms": 80.15873015873017,
+      "t99_ms": 97.73242630385487,
+      "zero_crossing_rate": 0.07076434565661148
+    },
+    "static_spectrum": {
+      "spectral_flatness": 2.134236076756224e-08,
+      "spectral_centroid_hz": 1790.7722336895595,
+      "spectral_rolloff_85_hz": 2239.453125,
+      "band_energy_fractions": {
+        "0_1k": 4.506885886712553e-07,
+        "1k_4k": 0.9952031970024109,
+        "4k_plus": 0.004796329885721207
+      },
+      "peaks": [
+        {
+          "frequency_hz": 1561.1572265625,
+          "power": 0.003396894782781601
+        },
+        {
+          "frequency_hz": 2239.453125,
+          "power": 0.0009498363942839205
+        },
+        {
+          "frequency_hz": 1884.1552734375,
+          "power": 2.3497303820556315e-13
+        }
+      ]
+    },
+    "dynamic_spectrum": {
+      "spectral_flatness": 2.8758712744547665e-08,
+      "spectral_centroid_hz": 1674.710786442366,
+      "spectral_rolloff_85_hz": 1571.923828125,
+      "band_energy_fractions": {
+        "0_1k": 3.440625960138277e-06,
+        "1k_4k": 0.9939612150192261,
+        "4k_plus": 0.006035337224602699
+      },
+      "peaks": [
+        {
+          "frequency_hz": 1561.1572265625,
+          "power": 0.0033969003707170486
+        }
+      ]
+    },
+    "static_category": "Slow detuning or dynamic modes",
+    "dynamic_category": "Slow detuning or dynamic modes"
+  },
+  "mug": {
+    "onset_idx": 0,
+    "window_ms": 100.0,
+    "static_rms_ratio": 0.9984828067922131,
+    "static_snr_db": 0.013188179716849293,
+    "dynamic_rms_ratio": 0.9995848037538531,
+    "dynamic_snr_db": 0.0036070975650147005,
+    "residual_static_rms": 0.20246769487857819,
+    "residual_dynamic_rms": 0.20269115269184113,
+    "residual_improvement_pct": -0.11036714444536229,
+    "static_decay_rate": 14.252345857038955,
+    "static_half_life_ms": 48.633901219676396,
+    "dynamic_decay_rate": 14.271803378804888,
+    "dynamic_half_life_ms": 48.56759599065752,
+    "static_energy": {
+      "first_5ms_energy_fraction": 0.14512233436107635,
+      "t50_ms": 20.226757369614514,
+      "t90_ms": 62.426303854875286,
+      "t99_ms": 93.56009070294785,
+      "zero_crossing_rate": 0.04286686323429349
+    },
+    "dynamic_energy": {
+      "first_5ms_energy_fraction": 0.14690816402435303,
+      "t50_ms": 20.226757369614514,
+      "t90_ms": 62.40362811791383,
+      "t99_ms": 93.5374149659864,
+      "zero_crossing_rate": 0.04286686323429349
+    },
+    "static_spectrum": {
+      "spectral_flatness": 5.467309094342454e-08,
+      "spectral_centroid_hz": 1009.5392461787017,
+      "spectral_rolloff_85_hz": 1345.8251953125,
+      "band_energy_fractions": {
+        "0_1k": 0.7178957462310791,
+        "1k_4k": 0.2821042835712433,
+        "4k_plus": 3.238184120846199e-08
+      },
+      "peaks": [
+        {
+          "frequency_hz": 818.26171875,
+          "power": 0.0014124481240287423
+        },
+        {
+          "frequency_hz": 1335.05859375,
+          "power": 0.00035396747989580035
+        },
+        {
+          "frequency_hz": 1087.4267578125,
+          "power": 2.3466857797249663e-12
+        }
+      ]
+    },
+    "dynamic_spectrum": {
+      "spectral_flatness": 5.4513641600806295e-08,
+      "spectral_centroid_hz": 1009.5305509934548,
+      "spectral_rolloff_85_hz": 1345.8251953125,
+      "band_energy_fractions": {
+        "0_1k": 0.7179015278816223,
+        "1k_4k": 0.2820984423160553,
+        "4k_plus": 3.2382242665107697e-08
+      },
+      "peaks": [
+        {
+          "frequency_hz": 818.26171875,
+          "power": 0.0014124431181699038
+        },
+        {
+          "frequency_hz": 1335.05859375,
+          "power": 0.0003539696626830846
+        },
+        {
+          "frequency_hz": 1098.193359375,
+          "power": 2.376050094524129e-12
+        }
+      ]
+    },
+    "static_category": "Slow detuning or dynamic modes",
+    "dynamic_category": "Slow detuning or dynamic modes"
+  },
+  "metal_bowl": {
+    "onset_idx": 0,
+    "window_ms": 100.0,
+    "static_rms_ratio": 0.9973936023835002,
+    "static_snr_db": 0.022668436325894957,
+    "dynamic_rms_ratio": 0.8331359419827704,
+    "dynamic_snr_db": 1.585682587987348,
+    "residual_static_rms": 0.3287573456764221,
+    "residual_dynamic_rms": 0.2746153175830841,
+    "residual_improvement_pct": 16.468689994371218,
+    "static_decay_rate": 0.13893993899997306,
+    "static_half_life_ms": 4988.826003119886,
+    "dynamic_decay_rate": 1.1262294252531835,
+    "dynamic_half_life_ms": 615.4582405831795,
+    "static_energy": {
+      "first_5ms_energy_fraction": 0.05567758530378342,
+      "t50_ms": 44.69387755102041,
+      "t90_ms": 88.16326530612245,
+      "t99_ms": 98.93424036281179,
+      "zero_crossing_rate": 0.029711952823769563
+    },
+    "dynamic_energy": {
+      "first_5ms_energy_fraction": 0.06278567016124725,
+      "t50_ms": 44.625850340136054,
+      "t90_ms": 87.57369614512471,
+      "t99_ms": 98.843537414966,
+      "zero_crossing_rate": 0.024041732819233386
+    },
+    "static_spectrum": {
+      "spectral_flatness": 9.41296374179501e-09,
+      "spectral_centroid_hz": 596.5922952014397,
+      "spectral_rolloff_85_hz": 936.6943359375,
+      "band_energy_fractions": {
+        "0_1k": 0.9693096876144409,
+        "1k_4k": 0.030690224841237068,
+        "4k_plus": 6.750028092028515e-09
+      },
+      "peaks": [
+        {
+          "frequency_hz": 441.4306640625,
+          "power": 0.0035687147174030542
+        },
+        {
+          "frequency_hz": 645.99609375,
+          "power": 0.0017380258068442345
+        },
+        {
+          "frequency_hz": 936.6943359375,
+          "power": 0.0007639695541001856
+        }
+      ]
+    },
+    "dynamic_spectrum": {
+      "spectral_flatness": 1.416673622856024e-08,
+      "spectral_centroid_hz": 572.6614754626531,
+      "spectral_rolloff_85_hz": 936.6943359375,
+      "band_energy_fractions": {
+        "0_1k": 0.9556708335876465,
+        "1k_4k": 0.04432903602719307,
+        "4k_plus": 9.80224168500854e-09
+      },
+      "peaks": [
+        {
+          "frequency_hz": 441.4306640625,
+          "power": 0.003568236017599702
+        },
+        {
+          "frequency_hz": 936.6943359375,
+          "power": 0.0007637545932084322
+        }
+      ]
+    },
+    "static_category": "Slow detuning or dynamic modes",
+    "dynamic_category": "Slow detuning or dynamic modes"
+  },
+  "wood": {
+    "onset_idx": 0,
+    "window_ms": 100.0,
+    "static_rms_ratio": 0.9912218741760493,
+    "static_snr_db": 0.07658245114219465,
+    "dynamic_rms_ratio": 0.9398827661138137,
+    "dynamic_snr_db": 0.5385262726721242,
+    "residual_static_rms": 0.14549888670444489,
+    "residual_dynamic_rms": 0.1379629522562027,
+    "residual_improvement_pct": 5.179376020586538,
+    "static_decay_rate": 42.63363955832421,
+    "static_half_life_ms": 16.258222092713453,
+    "dynamic_decay_rate": 43.27146290102283,
+    "dynamic_half_life_ms": 16.018575155302756,
+    "static_energy": {
+      "first_5ms_energy_fraction": 0.36861491203308105,
+      "t50_ms": 8.095238095238095,
+      "t90_ms": 24.285714285714285,
+      "t99_ms": 53.31065759637188,
+      "zero_crossing_rate": 0.011794057609435245
+    },
+    "dynamic_energy": {
+      "first_5ms_energy_fraction": 0.36456233263015747,
+      "t50_ms": 7.913832199546486,
+      "t90_ms": 23.537414965986393,
+      "t99_ms": 47.709750566893426,
+      "zero_crossing_rate": 0.008165116806532093
+    },
+    "static_spectrum": {
+      "spectral_flatness": 4.203043886263913e-07,
+      "spectral_centroid_hz": 205.40247601802872,
+      "spectral_rolloff_85_hz": 193.798828125,
+      "band_energy_fractions": {
+        "0_1k": 0.9999995231628418,
+        "1k_4k": 2.2083773387748806e-07,
+        "4k_plus": 3.6575363537849626e-07
+      },
+      "peaks": [
+        {
+          "frequency_hz": 183.0322265625,
+          "power": 0.00022483528300654143
+        },
+        {
+          "frequency_hz": 376.8310546875,
+          "power": 2.1982961698086e-05
+        }
+      ]
+    },
+    "dynamic_spectrum": {
+      "spectral_flatness": 4.5180340180195344e-07,
+      "spectral_centroid_hz": 180.7447311909154,
+      "spectral_rolloff_85_hz": 183.0322265625,
+      "band_energy_fractions": {
+        "0_1k": 0.999999463558197,
+        "1k_4k": 2.427344441002788e-07,
+        "4k_plus": 4.100495232250978e-07
+      },
+      "peaks": [
+        {
+          "frequency_hz": 183.0322265625,
+          "power": 0.00022481881023850292
+        }
+      ]
+    },
+    "static_category": "Mixed residual",
+    "dynamic_category": "Mixed residual"
+  }
+}
