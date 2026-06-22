@@ -1,0 +1,475 @@
+{
+  "materials": {
+    "glass": {
+      "mode_count": 4,
+      "pairwise_metrics": [
+        {
+          "material": "glass",
+          "mode_i": 0,
+          "mode_j": 1,
+          "amplitude_correlation": 0.6794779682267003,
+          "frequency_correlation": 0.37836840748786926,
+          "envelope_coherence": 0.6754078283435716,
+          "low_band_fraction": 0.9603506918420465,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3698515416365085,
+          "coupling_score": 0.6164183443899599
+        },
+        {
+          "material": "glass",
+          "mode_i": 0,
+          "mode_j": 2,
+          "amplitude_correlation": 0.999818738581467,
+          "frequency_correlation": 0.6262073516845703,
+          "envelope_coherence": 0.9998087696716742,
+          "low_band_fraction": 0.9998585094976217,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.5059560786391621,
+          "coupling_score": 0.887737305822055
+        },
+        {
+          "material": "glass",
+          "mode_i": 0,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9426995671789672,
+          "frequency_correlation": -0.3333255648612976,
+          "envelope_coherence": 0.9997349536784299,
+          "low_band_fraction": 0.9984543833553479,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3682345835617647,
+          "coupling_score": 0.776869925401197
+        },
+        {
+          "material": "glass",
+          "mode_i": 1,
+          "mode_j": 2,
+          "amplitude_correlation": 0.6894318776659919,
+          "frequency_correlation": 0.3314739763736725,
+          "envelope_coherence": 0.6739766990522338,
+          "low_band_fraction": 0.9531560094332849,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.369818917948228,
+          "coupling_score": 0.6053258847322738
+        },
+        {
+          "material": "glass",
+          "mode_i": 1,
+          "mode_j": 3,
+          "amplitude_correlation": 0.5038632986203156,
+          "frequency_correlation": -0.05944768711924553,
+          "envelope_coherence": 0.6637600042617162,
+          "low_band_fraction": 0.9961660534405619,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.36831284062062786,
+          "coupling_score": 0.4517482317802994
+        },
+        {
+          "material": "glass",
+          "mode_i": 2,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9389198172821894,
+          "frequency_correlation": -0.4353814125061035,
+          "envelope_coherence": 0.9995168678916334,
+          "low_band_fraction": 0.9984428937293284,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.36823351099661905,
+          "coupling_score": 0.8059300136159664
+        }
+      ],
+      "mean_coupling_score": 0.6906716176236252,
+      "mean_frequency_correlation": 0.0846491785099109,
+      "mean_amplitude_correlation": 0.7923685445926053,
+      "mean_envelope_coherence": 0.8353675204832097,
+      "top_pair": {
+        "material": "glass",
+        "mode_i": 0,
+        "mode_j": 2,
+        "amplitude_correlation": 0.999818738581467,
+        "frequency_correlation": 0.6262073516845703,
+        "envelope_coherence": 0.9998087696716742,
+        "low_band_fraction": 0.9998585094976217,
+        "dominant_modulation_hz": 10.0,
+        "beat_alignment": 0.5059560786391621,
+        "coupling_score": 0.887737305822055
+      }
+    },
+    "mug": {
+      "mode_count": 4,
+      "pairwise_metrics": [
+        {
+          "material": "mug",
+          "mode_i": 0,
+          "mode_j": 1,
+          "amplitude_correlation": 0.9998265575673709,
+          "frequency_correlation": 0.863084077835083,
+          "envelope_coherence": 0.9999971985147585,
+          "low_band_fraction": 0.9999430335424783,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.4231026566923326,
+          "coupling_score": 0.9588495894346728
+        },
+        {
+          "material": "mug",
+          "mode_i": 0,
+          "mode_j": 2,
+          "amplitude_correlation": 0.9982659111645334,
+          "frequency_correlation": 0.3119966983795166,
+          "envelope_coherence": 0.9998726147529602,
+          "low_band_fraction": 0.9998044131071997,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.38406328469569617,
+          "coupling_score": 0.7928603382409805
+        },
+        {
+          "material": "mug",
+          "mode_i": 0,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9834234307289917,
+          "frequency_correlation": -0.5840399861335754,
+          "envelope_coherence": 0.9970605421917456,
+          "low_band_fraction": 0.9934081077752508,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3765074914165742,
+          "coupling_score": 0.8673342873475436
+        },
+        {
+          "material": "mug",
+          "mode_i": 1,
+          "mode_j": 2,
+          "amplitude_correlation": 0.9990284727501296,
+          "frequency_correlation": 0.7017679214477539,
+          "envelope_coherence": 0.9998824064628353,
+          "low_band_fraction": 0.9997691205472011,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.39145990025251587,
+          "coupling_score": 0.9100951588816653
+        },
+        {
+          "material": "mug",
+          "mode_i": 1,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9861302601779237,
+          "frequency_correlation": -0.45468801259994507,
+          "envelope_coherence": 0.9971664439948171,
+          "low_band_fraction": 0.9927989707777585,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.37824044544087604,
+          "coupling_score": 0.8295716937278922
+        },
+        {
+          "material": "mug",
+          "mode_i": 2,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9911727997334002,
+          "frequency_correlation": 0.07586401700973511,
+          "envelope_coherence": 0.9977165250210043,
+          "low_band_fraction": 0.9995950504260833,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.386830407013424,
+          "coupling_score": 0.7187311350430898
+        }
+      ],
+      "mean_coupling_score": 0.8462403671126406,
+      "mean_frequency_correlation": 0.15233078598976135,
+      "mean_amplitude_correlation": 0.9929745720203916,
+      "mean_envelope_coherence": 0.9986159551563535,
+      "top_pair": {
+        "material": "mug",
+        "mode_i": 0,
+        "mode_j": 1,
+        "amplitude_correlation": 0.9998265575673709,
+        "frequency_correlation": 0.863084077835083,
+        "envelope_coherence": 0.9999971985147585,
+        "low_band_fraction": 0.9999430335424783,
+        "dominant_modulation_hz": 10.0,
+        "beat_alignment": 0.4231026566923326,
+        "coupling_score": 0.9588495894346728
+      }
+    },
+    "metal_bowl": {
+      "mode_count": 4,
+      "pairwise_metrics": [
+        {
+          "material": "metal_bowl",
+          "mode_i": 0,
+          "mode_j": 1,
+          "amplitude_correlation": 0.9765974624838573,
+          "frequency_correlation": 0.7387265563011169,
+          "envelope_coherence": 0.9693072708678853,
+          "low_band_fraction": 0.9994771216137024,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 7.138473819953532e-05,
+          "coupling_score": 0.9060661182188253
+        },
+        {
+          "material": "metal_bowl",
+          "mode_i": 0,
+          "mode_j": 2,
+          "amplitude_correlation": 0.42845414493196854,
+          "frequency_correlation": 0.9357605576515198,
+          "envelope_coherence": 0.7482549415119059,
+          "low_band_fraction": 0.9994705227425822,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.0005016149676167392,
+          "coupling_score": 0.7017078658448828
+        },
+        {
+          "material": "metal_bowl",
+          "mode_i": 0,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9455037407633735,
+          "frequency_correlation": -0.257173091173172,
+          "envelope_coherence": 0.9298873543261,
+          "low_band_fraction": 0.9994571052902731,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 8.978499912511547e-05,
+          "coupling_score": 0.7412766050515484
+        },
+        {
+          "material": "metal_bowl",
+          "mode_i": 1,
+          "mode_j": 2,
+          "amplitude_correlation": 0.5673678708224096,
+          "frequency_correlation": 0.4769624173641205,
+          "envelope_coherence": 0.8648668821898116,
+          "low_band_fraction": 0.9995431317059708,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.004150095775758057,
+          "coupling_score": 0.6429635631467594
+        },
+        {
+          "material": "metal_bowl",
+          "mode_i": 1,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9912820079845933,
+          "frequency_correlation": 0.40088972449302673,
+          "envelope_coherence": 0.9875145691265068,
+          "low_band_fraction": 0.9994353864945634,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 5.967781281721222e-05,
+          "coupling_score": 0.8142261730165031
+        },
+        {
+          "material": "metal_bowl",
+          "mode_i": 2,
+          "mode_j": 3,
+          "amplitude_correlation": 0.6567284849028517,
+          "frequency_correlation": -0.4932044446468353,
+          "envelope_coherence": 0.8910920692422548,
+          "low_band_fraction": 0.9995675401613383,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.007035447817489525,
+          "coupling_score": 0.688827895219776
+        }
+      ],
+      "mean_coupling_score": 0.7491780367497158,
+      "mean_frequency_correlation": 0.30032695333162945,
+      "mean_amplitude_correlation": 0.760988951981509,
+      "mean_envelope_coherence": 0.8984871812107441,
+      "top_pair": {
+        "material": "metal_bowl",
+        "mode_i": 0,
+        "mode_j": 1,
+        "amplitude_correlation": 0.9765974624838573,
+        "frequency_correlation": 0.7387265563011169,
+        "envelope_coherence": 0.9693072708678853,
+        "low_band_fraction": 0.9994771216137024,
+        "dominant_modulation_hz": 10.0,
+        "beat_alignment": 7.138473819953532e-05,
+        "coupling_score": 0.9060661182188253
+      }
+    },
+    "wood": {
+      "mode_count": 4,
+      "pairwise_metrics": [
+        {
+          "material": "wood",
+          "mode_i": 0,
+          "mode_j": 1,
+          "amplitude_correlation": 0.9083042307396814,
+          "frequency_correlation": 0.10867788642644882,
+          "envelope_coherence": 0.9952719410645807,
+          "low_band_fraction": 0.9998193170342131,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3908338740497746,
+          "coupling_score": 0.6949613781401447
+        },
+        {
+          "material": "wood",
+          "mode_i": 0,
+          "mode_j": 2,
+          "amplitude_correlation": 0.9847706177539343,
+          "frequency_correlation": 0.5919328331947327,
+          "envelope_coherence": 0.9278593154466424,
+          "low_band_fraction": 0.9950584839107985,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.38354102138842167,
+          "coupling_score": 0.856565808540402
+        },
+        {
+          "material": "wood",
+          "mode_i": 0,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9981871599655615,
+          "frequency_correlation": 0.8277316689491272,
+          "envelope_coherence": 0.9984391269500018,
+          "low_band_fraction": 0.9999774858774361,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.00018798392035567865,
+          "coupling_score": 0.9472799386487067
+        },
+        {
+          "material": "wood",
+          "mode_i": 1,
+          "mode_j": 2,
+          "amplitude_correlation": 0.8259237136568925,
+          "frequency_correlation": -0.05963553488254547,
+          "envelope_coherence": 0.9146750834780437,
+          "low_band_fraction": 0.9998582865284162,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.4206181326207186,
+          "coupling_score": 0.631180991275971
+        },
+        {
+          "material": "wood",
+          "mode_i": 1,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9005845037361934,
+          "frequency_correlation": 0.19718460738658905,
+          "envelope_coherence": 0.9909148597542632,
+          "low_band_fraction": 0.999810039975992,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3907454337837187,
+          "coupling_score": 0.717553159658906
+        },
+        {
+          "material": "wood",
+          "mode_i": 2,
+          "mode_j": 3,
+          "amplitude_correlation": 0.9882044150360227,
+          "frequency_correlation": 0.488910436630249,
+          "envelope_coherence": 0.9186794596045158,
+          "low_band_fraction": 0.9938627250562346,
+          "dominant_modulation_hz": 10.0,
+          "beat_alignment": 0.3834997946943905,
+          "coupling_score": 0.8250770614300104
+        }
+      ],
+      "mean_coupling_score": 0.7787697229490235,
+      "mean_frequency_correlation": 0.35913364961743355,
+      "mean_amplitude_correlation": 0.9343291068147144,
+      "mean_envelope_coherence": 0.9576399643830079,
+      "top_pair": {
+        "material": "wood",
+        "mode_i": 0,
+        "mode_j": 3,
+        "amplitude_correlation": 0.9981871599655615,
+        "frequency_correlation": 0.8277316689491272,
+        "envelope_coherence": 0.9984391269500018,
+        "low_band_fraction": 0.9999774858774361,
+        "dominant_modulation_hz": 10.0,
+        "beat_alignment": 0.00018798392035567865,
+        "coupling_score": 0.9472799386487067
+      }
+    }
+  },
+  "strong_pair_rate": 1.0,
+  "top_pairs": [
+    {
+      "material": "mug",
+      "mode_i": 0,
+      "mode_j": 1,
+      "amplitude_correlation": 0.9998265575673709,
+      "frequency_correlation": 0.863084077835083,
+      "envelope_coherence": 0.9999971985147585,
+      "low_band_fraction": 0.9999430335424783,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.4231026566923326,
+      "coupling_score": 0.9588495894346728
+    },
+    {
+      "material": "wood",
+      "mode_i": 0,
+      "mode_j": 3,
+      "amplitude_correlation": 0.9981871599655615,
+      "frequency_correlation": 0.8277316689491272,
+      "envelope_coherence": 0.9984391269500018,
+      "low_band_fraction": 0.9999774858774361,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.00018798392035567865,
+      "coupling_score": 0.9472799386487067
+    },
+    {
+      "material": "mug",
+      "mode_i": 1,
+      "mode_j": 2,
+      "amplitude_correlation": 0.9990284727501296,
+      "frequency_correlation": 0.7017679214477539,
+      "envelope_coherence": 0.9998824064628353,
+      "low_band_fraction": 0.9997691205472011,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.39145990025251587,
+      "coupling_score": 0.9100951588816653
+    },
+    {
+      "material": "metal_bowl",
+      "mode_i": 0,
+      "mode_j": 1,
+      "amplitude_correlation": 0.9765974624838573,
+      "frequency_correlation": 0.7387265563011169,
+      "envelope_coherence": 0.9693072708678853,
+      "low_band_fraction": 0.9994771216137024,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 7.138473819953532e-05,
+      "coupling_score": 0.9060661182188253
+    },
+    {
+      "material": "glass",
+      "mode_i": 0,
+      "mode_j": 2,
+      "amplitude_correlation": 0.999818738581467,
+      "frequency_correlation": 0.6262073516845703,
+      "envelope_coherence": 0.9998087696716742,
+      "low_band_fraction": 0.9998585094976217,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.5059560786391621,
+      "coupling_score": 0.887737305822055
+    },
+    {
+      "material": "mug",
+      "mode_i": 0,
+      "mode_j": 3,
+      "amplitude_correlation": 0.9834234307289917,
+      "frequency_correlation": -0.5840399861335754,
+      "envelope_coherence": 0.9970605421917456,
+      "low_band_fraction": 0.9934081077752508,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.3765074914165742,
+      "coupling_score": 0.8673342873475436
+    },
+    {
+      "material": "wood",
+      "mode_i": 0,
+      "mode_j": 2,
+      "amplitude_correlation": 0.9847706177539343,
+      "frequency_correlation": 0.5919328331947327,
+      "envelope_coherence": 0.9278593154466424,
+      "low_band_fraction": 0.9950584839107985,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.38354102138842167,
+      "coupling_score": 0.856565808540402
+    },
+    {
+      "material": "mug",
+      "mode_i": 1,
+      "mode_j": 3,
+      "amplitude_correlation": 0.9861302601779237,
+      "frequency_correlation": -0.45468801259994507,
+      "envelope_coherence": 0.9971664439948171,
+      "low_band_fraction": 0.9927989707777585,
+      "dominant_modulation_hz": 10.0,
+      "beat_alignment": 0.37824044544087604,
+      "coupling_score": 0.8295716937278922
+    }
+  ]
+}

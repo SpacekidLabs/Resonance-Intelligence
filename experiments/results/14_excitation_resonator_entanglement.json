@@ -1,0 +1,170 @@
+{
+  "materials": [
+    "glass",
+    "mug",
+    "metal_bowl",
+    "wood"
+  ],
+  "chance_level": 0.25,
+  "excitation_only": {
+    "accuracy": 0.9722222222222222,
+    "predictions": [
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "mug",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood"
+    ],
+    "per_material_accuracy": {
+      "glass": 1.0,
+      "mug": 1.0,
+      "metal_bowl": 1.0,
+      "wood": 0.8888888888888888
+    },
+    "classes": [
+      "glass",
+      "mug",
+      "metal_bowl",
+      "wood"
+    ],
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        8
+      ]
+    ]
+  },
+  "resonator_only": {
+    "accuracy": 0.8611111111111112,
+    "predictions": [
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "glass",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "mug",
+      "mug",
+      "mug",
+      "mug",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "metal_bowl",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "wood"
+    ],
+    "per_material_accuracy": {
+      "glass": 1.0,
+      "mug": 0.4444444444444444,
+      "metal_bowl": 1.0,
+      "wood": 1.0
+    },
+    "classes": [
+      "glass",
+      "mug",
+      "metal_bowl",
+      "wood"
+    ],
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        9
+      ]
+    ]
+  },
+  "accuracy_gap": -0.11111111111111105,
+  "excitation_above_chance": true,
+  "resonator_above_chance": true
+}

@@ -65,6 +65,8 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 11 to replace static modal parameters with time-varying f(t), d(t), and A(t). (Completed June 22, 2026)
 - [x] Run Experiment 12 to analyze the remainder of the dynamic modal model with spectrum, decay, energy, and band-energy metrics. (Completed June 22, 2026)
 - [x] Run Experiment 13 to test whether the dynamic residual is a physically meaningful excitation signal and whether excitation/resonator swaps preserve identity. (Completed June 22, 2026)
+- [x] Run Experiment 14 to test how much object identity can be decoded from excitation-only features versus resonator-only features. (Completed June 22, 2026)
+- [x] Run Experiment 15 to measure whether modal amplitudes and frequencies exhibit coupling, beating, sidebands, or shared envelopes. (Completed June 22, 2026)
 
 ---
 
@@ -98,6 +100,24 @@ We treated the Experiment 12 dynamic residual as an excitation candidate and mea
   - The dynamic residual is excitation-like in the sense that it is short-tailed for wood and clearly broadband relative to the dynamic modal remainder.
   - Cross-material swaps mostly fail to transfer identity: only **1/12** off-diagonal hybrids were closer to the target resonator, and the best-match field overwhelmingly stayed with the source identity.
   - This supports a separation between strike/excitation and resonator structure, but the excitation is still material-dependent rather than universal.
+
+### Experiment 14: Excitation-Resonator Entanglement
+We trained a simple nearest-centroid classifier on 20 ms windows extracted from the excitation candidate and the dynamic resonator:
+- **Excitation-only accuracy**: **97.22%** versus chance at **25.00%**.
+- **Resonator-only accuracy**: **86.11%** versus chance at **25.00%**.
+- **Best per-class performance**: glass, mug, and metal bowl were all decoded perfectly from excitation windows; wood was slightly harder but still above chance.
+- *Scientific Verdict*:
+  - Excitation alone contains substantial object information, which explains why swap behavior is not universal.
+  - The resonator still carries strong identity, but the excitation is not a clean object-independent impulse.
+
+### Experiment 15: Modal Coupling Detection
+We measured pairwise correlations and low-frequency envelope structure across the time-varying modal tracks from Experiment 10A:
+- **Strong-pair rate**: **100.00%** of pairwise mode combinations exceeded the coupling threshold.
+- **Mean coupling scores**: glass **0.691**, mug **0.846**, metal bowl **0.749**, wood **0.779**.
+- **Typical signatures**: high amplitude correlation, high envelope coherence, and low-band envelope modulation around the beat scale.
+- *Scientific Verdict*:
+  - The modes do not behave like independent oscillators in this representation.
+  - The data are consistent with coupled envelopes, frequency pulling, or energy exchange between modes.
 
 ### Experiment 03: Observer Sweep & Epistemic Stability
 We swept 7 different observers (STFT, Filterbank, LPC, Prony, Matrix Pencil, Autocorrelation, Wavelet) on 4 real impact sound files (glass, mug, metal bowl, wood) after aligning segments starting at the detected onset.
