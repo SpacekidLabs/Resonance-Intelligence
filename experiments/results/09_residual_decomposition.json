@@ -1,0 +1,86 @@
+{
+  "glass": {
+    "onset_idx": 0,
+    "residual_rms_ratio": 0.9998562578683038,
+    "residual_snr_db": 0.0012486177579236913,
+    "residual_decay_rate": 7.059120347639864,
+    "residual_half_life_ms": 98.19172169115843,
+    "spectral_flatness": 4.994892111643773e-08,
+    "peak_count": 2,
+    "peaks": [
+      {
+        "frequency_hz": 1561.1572265625,
+        "power": 0.0001366405877049576
+      },
+      {
+        "frequency_hz": 2239.453125,
+        "power": 3.019253888493588e-05
+      }
+    ],
+    "category": "Slow detuning or dynamic modes"
+  },
+  "mug": {
+    "onset_idx": 0,
+    "residual_rms_ratio": 0.9585188060402969,
+    "residual_snr_db": 0.3679872373586044,
+    "residual_decay_rate": 13.0011613825138,
+    "residual_half_life_ms": 53.3142509477773,
+    "spectral_flatness": 1.2520576834828398e-07,
+    "peak_count": 2,
+    "peaks": [
+      {
+        "frequency_hz": 818.26171875,
+        "power": 3.722041746758423e-05
+      },
+      {
+        "frequency_hz": 1335.05859375,
+        "power": 8.065541412891924e-06
+      }
+    ],
+    "category": "Slow detuning or dynamic modes"
+  },
+  "metal_bowl": {
+    "onset_idx": 0,
+    "residual_rms_ratio": 0.981829582264333,
+    "residual_snr_db": 0.15927773708207393,
+    "residual_decay_rate": 0.0,
+    "residual_half_life_ms": Infinity,
+    "spectral_flatness": 1.7930243320643102e-08,
+    "peak_count": 3,
+    "peaks": [
+      {
+        "frequency_hz": 441.4306640625,
+        "power": 0.0005272665236774126
+      },
+      {
+        "frequency_hz": 645.99609375,
+        "power": 0.00013405225055498936
+      },
+      {
+        "frequency_hz": 936.6943359375,
+        "power": 4.548235185722646e-05
+      }
+    ],
+    "category": "Slow detuning or dynamic modes"
+  },
+  "wood": {
+    "onset_idx": 0,
+    "residual_rms_ratio": 0.9599269958601255,
+    "residual_snr_db": 0.35523589070237505,
+    "residual_decay_rate": 43.17760232560392,
+    "residual_half_life_ms": 16.053396743359677,
+    "spectral_flatness": 5.138481173658628e-07,
+    "peak_count": 2,
+    "peaks": [
+      {
+        "frequency_hz": 183.0322265625,
+        "power": 4.374147148940335e-06
+      },
+      {
+        "frequency_hz": 398.3642578125,
+        "power": 1.8624086798748282e-07
+      }
+    ],
+    "category": "Mixed residual"
+  }
+}

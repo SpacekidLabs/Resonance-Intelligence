@@ -59,7 +59,10 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 05 to apply relative frequency perturbations and analyze state drift.
 - [x] Run Experiment 07 to implement iterative phase estimation with a phase-locked loop observer. (Completed June 22, 2026)
 - [x] Run Experiment 08 to sweep frequency estimation error and measure prediction horizon, RMS error, SNR, and phase error for open loop and iterative tracker models. (Completed June 22, 2026)
-- [ ] Design Experiment 09 (Residual Decomposition) to analyze the residual spectrum, residual decay, and residual energy over time from the best reconstruction.
+- [x] Run Experiment 09 to analyze the residual spectrum, residual decay, and residual energy over time from the best reconstruction. (Completed June 22, 2026)
+- [x] Run Experiment 10A to track time-varying modal frequency, decay, and amplitude over the first 100 ms. (Completed June 22, 2026)
+- [x] Run Experiment 10B to separate strike excitation from resonator response with deconvolution and reconstruction checks. (Completed June 22, 2026)
+- [ ] Design Experiment 11 (Dynamic Modal Resynthesis) to replace static modal parameters with time-varying f(t), d(t), and A(t).
 
 ---
 
