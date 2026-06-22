@@ -1,0 +1,445 @@
+{
+  "materials": {
+    "glass": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "excitation": {
+        "first_5ms_energy_fraction": 0.09660229831933975,
+        "first_10ms_energy_fraction": 0.18247510492801666,
+        "t50_ms": 32.517006802721085,
+        "t90_ms": 80.15873015873017,
+        "t99_ms": 97.73242630385487,
+        "decay_rate_1_s": 7.010904010968632,
+        "half_life_ms": 98.86701907135091,
+        "crest_factor": 2.699358685891558,
+        "early_peak_to_mean_abs": 2.2462805182988865
+      },
+      "excitation_spectrum": {
+        "spectral_flatness": 2.8758712744547665e-08,
+        "spectral_centroid_hz": 1674.710786442366,
+        "spectral_rolloff_85_hz": 1571.923828125,
+        "band_energy_fractions": {
+          "0_1k": 3.440625960138277e-06,
+          "1k_4k": 0.9939612150192261,
+          "4k_plus": 0.006035337224602699
+        },
+        "peaks": [
+          {
+            "frequency_hz": 1561.1572265625,
+            "power": 0.0033969003707170486
+          }
+        ]
+      },
+      "dynamic_model_spectrum": {
+        "spectral_flatness": 1.4171339102198033e-10,
+        "spectral_centroid_hz": 2239.989173010298,
+        "spectral_rolloff_85_hz": 2250.2197265625,
+        "band_energy_fractions": {
+          "0_1k": 1.3987888451083563e-05,
+          "1k_4k": 0.9999861121177673,
+          "4k_plus": 1.0093314628534245e-08
+        },
+        "peaks": [
+          {
+            "frequency_hz": 2239.453125,
+            "power": 0.0009497375576756895
+          }
+        ]
+      },
+      "recombined_rms_ratio": 2.3273136207003768e-08,
+      "recombined_snr_db": 152.66156320734325,
+      "dynamic_model_rms_ratio": 0.8900755022431893,
+      "dynamic_model_snr_db": 1.0114630396916504,
+      "spectral_flatness_delta": 2.8616999353525685e-08,
+      "excitation_like": true
+    },
+    "mug": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "excitation": {
+        "first_5ms_energy_fraction": 0.14690816402435303,
+        "first_10ms_energy_fraction": 0.2880082428455353,
+        "t50_ms": 20.226757369614514,
+        "t90_ms": 62.40362811791383,
+        "t99_ms": 93.5374149659864,
+        "decay_rate_1_s": 14.067419364673485,
+        "half_life_ms": 49.27322933874762,
+        "crest_factor": 4.408518719491077,
+        "early_peak_to_mean_abs": 3.216585922557103
+      },
+      "excitation_spectrum": {
+        "spectral_flatness": 5.4513641600806295e-08,
+        "spectral_centroid_hz": 1009.5305509934548,
+        "spectral_rolloff_85_hz": 1345.8251953125,
+        "band_energy_fractions": {
+          "0_1k": 0.7179015278816223,
+          "1k_4k": 0.2820984423160553,
+          "4k_plus": 3.2382242665107697e-08
+        },
+        "peaks": [
+          {
+            "frequency_hz": 818.26171875,
+            "power": 0.0014124431181699038
+          }
+        ]
+      },
+      "dynamic_model_spectrum": {
+        "spectral_flatness": 5.278556969301462e-08,
+        "spectral_centroid_hz": 434.6573372867727,
+        "spectral_rolloff_85_hz": 473.73046875,
+        "band_energy_fractions": {
+          "0_1k": 0.9999917149543762,
+          "1k_4k": 2.9597795219160616e-06,
+          "4k_plus": 3.00352169801954e-08
+        },
+        "peaks": [
+          {
+            "frequency_hz": 452.197265625,
+            "power": 4.876429571254448e-08
+          }
+        ]
+      },
+      "recombined_rms_ratio": 8.354194113238348e-09,
+      "recombined_snr_db": 161.5567829021942,
+      "dynamic_model_rms_ratio": 0.9995848037538531,
+      "dynamic_model_snr_db": 0.0036070975650147005,
+      "spectral_flatness_delta": 1.7280719077916729e-09,
+      "excitation_like": true
+    },
+    "metal_bowl": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "excitation": {
+        "first_5ms_energy_fraction": 0.06278567016124725,
+        "first_10ms_energy_fraction": 0.11546298861503601,
+        "t50_ms": 44.625850340136054,
+        "t90_ms": 87.57369614512471,
+        "t99_ms": 98.843537414966,
+        "decay_rate_1_s": 1.2723227822623115,
+        "half_life_ms": 544.7887833360325,
+        "crest_factor": 2.556037558381783,
+        "early_peak_to_mean_abs": 2.936990186491331
+      },
+      "excitation_spectrum": {
+        "spectral_flatness": 1.416673622856024e-08,
+        "spectral_centroid_hz": 572.6614754626531,
+        "spectral_rolloff_85_hz": 936.6943359375,
+        "band_energy_fractions": {
+          "0_1k": 0.9556708335876465,
+          "1k_4k": 0.04432903602719307,
+          "4k_plus": 9.80224168500854e-09
+        },
+        "peaks": [
+          {
+            "frequency_hz": 441.4306640625,
+            "power": 0.003568236017599702
+          }
+        ]
+      },
+      "dynamic_model_spectrum": {
+        "spectral_flatness": 1.9304056617097665e-11,
+        "spectral_centroid_hz": 649.9693681972053,
+        "spectral_rolloff_85_hz": 656.7626953125,
+        "band_energy_fractions": {
+          "0_1k": 1.0000001192092896,
+          "1k_4k": 3.042762841687363e-08,
+          "4k_plus": 1.2415497796514074e-10
+        },
+        "peaks": [
+          {
+            "frequency_hz": 645.99609375,
+            "power": 0.0017780092312023044
+          }
+        ]
+      },
+      "recombined_rms_ratio": 2.2131628835102227e-08,
+      "recombined_snr_db": 153.09854184701408,
+      "dynamic_model_rms_ratio": 0.8331359419827704,
+      "dynamic_model_snr_db": 1.585682587987348,
+      "spectral_flatness_delta": 1.4147432171943142e-08,
+      "excitation_like": true
+    },
+    "wood": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "excitation": {
+        "first_5ms_energy_fraction": 0.36456233263015747,
+        "first_10ms_energy_fraction": 0.6251036524772644,
+        "t50_ms": 7.913832199546486,
+        "t90_ms": 23.537414965986393,
+        "t99_ms": 47.709750566893426,
+        "decay_rate_1_s": 42.02558366727663,
+        "half_life_ms": 16.493457557845897,
+        "crest_factor": 4.798883452104798,
+        "early_peak_to_mean_abs": 2.1630224587919242
+      },
+      "excitation_spectrum": {
+        "spectral_flatness": 4.5180340180195344e-07,
+        "spectral_centroid_hz": 180.7447311909154,
+        "spectral_rolloff_85_hz": 183.0322265625,
+        "band_energy_fractions": {
+          "0_1k": 0.999999463558197,
+          "1k_4k": 2.427344441002788e-07,
+          "4k_plus": 4.100495232250978e-07
+        },
+        "peaks": [
+          {
+            "frequency_hz": 183.0322265625,
+            "power": 0.00022481881023850292
+          }
+        ]
+      },
+      "dynamic_model_spectrum": {
+        "spectral_flatness": 5.073938491584329e-10,
+        "spectral_centroid_hz": 395.0908442921123,
+        "spectral_rolloff_85_hz": 387.59765625,
+        "band_energy_fractions": {
+          "0_1k": 1.0,
+          "1k_4k": 7.08321934439482e-08,
+          "4k_plus": 5.095597832571741e-10
+        },
+        "peaks": [
+          {
+            "frequency_hz": 376.8310546875,
+            "power": 1.7170366845675744e-05
+          }
+        ]
+      },
+      "recombined_rms_ratio": 2.3175815787307323e-08,
+      "recombined_snr_db": 152.6967465374265,
+      "dynamic_model_rms_ratio": 0.9398827661138137,
+      "dynamic_model_snr_db": 0.5385262726721242,
+      "spectral_flatness_delta": 4.51296007952795e-07,
+      "excitation_like": true
+    }
+  },
+  "pairwise_swaps": [
+    {
+      "excitation_source": "glass",
+      "resonator_target": "glass",
+      "source_rms_ratio": 2.3273136207003768e-08,
+      "target_rms_ratio": 2.3273136207003768e-08,
+      "dominance_score": 0.0,
+      "best_match": "glass",
+      "score_map": {
+        "glass": 2.3273136207003768e-08,
+        "mug": 1.691718187122881,
+        "metal_bowl": 1.309204723681444,
+        "wood": 2.144105374446753
+      }
+    },
+    {
+      "excitation_source": "glass",
+      "resonator_target": "mug",
+      "source_rms_ratio": 0.45640600712559715,
+      "target_rms_ratio": 1.5736244713794498,
+      "dominance_score": -1.1172184642538527,
+      "best_match": "glass",
+      "score_map": {
+        "glass": 0.45640600712559715,
+        "mug": 1.5736244713794498,
+        "metal_bowl": 1.2551144913481185,
+        "wood": 1.9614658234540412
+      }
+    },
+    {
+      "excitation_source": "glass",
+      "resonator_target": "metal_bowl",
+      "source_rms_ratio": 0.7968524464522905,
+      "target_rms_ratio": 1.1229552952187944,
+      "dominance_score": -0.32610284876650397,
+      "best_match": "glass",
+      "score_map": {
+        "glass": 0.7968524464522905,
+        "mug": 1.8116474376827862,
+        "metal_bowl": 1.1229552952187944,
+        "wood": 2.3035283860866245
+      }
+    },
+    {
+      "excitation_source": "glass",
+      "resonator_target": "wood",
+      "source_rms_ratio": 0.48871800967475504,
+      "target_rms_ratio": 1.9295530810967332,
+      "dominance_score": -1.4408350714219782,
+      "best_match": "glass",
+      "score_map": {
+        "glass": 0.48871800967475504,
+        "mug": 1.5927608293940354,
+        "metal_bowl": 1.2453385337680447,
+        "wood": 1.9295530810967332
+      }
+    },
+    {
+      "excitation_source": "mug",
+      "resonator_target": "glass",
+      "source_rms_ratio": 0.6275116524977866,
+      "target_rms_ratio": 1.1445391632786557,
+      "dominance_score": -0.5170275107808691,
+      "best_match": "mug",
+      "score_map": {
+        "glass": 1.1445391632786557,
+        "mug": 0.6275116524977866,
+        "metal_bowl": 1.2331459599805015,
+        "wood": 1.9139700830345625
+      }
+    },
+    {
+      "excitation_source": "mug",
+      "resonator_target": "mug",
+      "source_rms_ratio": 8.354194113238348e-09,
+      "target_rms_ratio": 8.354194113238348e-09,
+      "dominance_score": 0.0,
+      "best_match": "mug",
+      "score_map": {
+        "glass": 1.2304318810545616,
+        "mug": 8.354194113238348e-09,
+        "metal_bowl": 1.174248082720516,
+        "wood": 1.702315847250983
+      }
+    },
+    {
+      "excitation_source": "mug",
+      "resonator_target": "metal_bowl",
+      "source_rms_ratio": 0.9007506086622246,
+      "target_rms_ratio": 1.032805058688507,
+      "dominance_score": -0.13205445002628236,
+      "best_match": "mug",
+      "score_map": {
+        "glass": 1.3941238426639293,
+        "mug": 0.9007506086622246,
+        "metal_bowl": 1.032805058688507,
+        "wood": 2.089837754240876
+      }
+    },
+    {
+      "excitation_source": "mug",
+      "resonator_target": "wood",
+      "source_rms_ratio": 0.24826093400807298,
+      "target_rms_ratio": 1.6660410958011862,
+      "dominance_score": -1.4177801617931132,
+      "best_match": "mug",
+      "score_map": {
+        "glass": 1.2430012289875234,
+        "mug": 0.24826093400807298,
+        "metal_bowl": 1.163962274093079,
+        "wood": 1.6660410958011862
+      }
+    },
+    {
+      "excitation_source": "metal_bowl",
+      "resonator_target": "glass",
+      "source_rms_ratio": 0.6739918009710574,
+      "target_rms_ratio": 1.3276566168348334,
+      "dominance_score": -0.653664815863776,
+      "best_match": "metal_bowl",
+      "score_map": {
+        "glass": 1.3276566168348334,
+        "mug": 1.7962792978729867,
+        "metal_bowl": 0.6739918009710574,
+        "wood": 2.270198693767415
+      }
+    },
+    {
+      "excitation_source": "metal_bowl",
+      "resonator_target": "mug",
+      "source_rms_ratio": 0.5541289300172618,
+      "target_rms_ratio": 1.6788507779482247,
+      "dominance_score": -1.1247218479309629,
+      "best_match": "metal_bowl",
+      "score_map": {
+        "glass": 1.3996768083486617,
+        "mug": 1.6788507779482247,
+        "metal_bowl": 0.5541289300172618,
+        "wood": 2.0883233496319313
+      }
+    },
+    {
+      "excitation_source": "metal_bowl",
+      "resonator_target": "metal_bowl",
+      "source_rms_ratio": 2.2131628835102227e-08,
+      "target_rms_ratio": 2.2131628835102227e-08,
+      "dominance_score": 0.0,
+      "best_match": "metal_bowl",
+      "score_map": {
+        "glass": 1.5478570888687302,
+        "mug": 1.908769995455762,
+        "metal_bowl": 2.2131628835102227e-08,
+        "wood": 2.4200041499272333
+      }
+    },
+    {
+      "excitation_source": "metal_bowl",
+      "resonator_target": "wood",
+      "source_rms_ratio": 0.5590042054783123,
+      "target_rms_ratio": 2.094646531980903,
+      "dominance_score": -1.5356423265025905,
+      "best_match": "metal_bowl",
+      "score_map": {
+        "glass": 1.4252676774843878,
+        "mug": 1.7199017079765797,
+        "metal_bowl": 0.5590042054783123,
+        "wood": 2.094646531980903
+      }
+    },
+    {
+      "excitation_source": "wood",
+      "resonator_target": "glass",
+      "source_rms_ratio": 0.9282290176021069,
+      "target_rms_ratio": 1.0159209887571246,
+      "dominance_score": -0.0876919711550177,
+      "best_match": "wood",
+      "score_map": {
+        "glass": 1.0159209887571246,
+        "mug": 1.3553851283106326,
+        "metal_bowl": 1.149833278975269,
+        "wood": 0.9282290176021069
+      }
+    },
+    {
+      "excitation_source": "wood",
+      "resonator_target": "mug",
+      "source_rms_ratio": 0.3429531052275672,
+      "target_rms_ratio": 1.2060334554048788,
+      "dominance_score": -0.8630803501773117,
+      "best_match": "wood",
+      "score_map": {
+        "glass": 1.11446087530297,
+        "mug": 1.2060334554048788,
+        "metal_bowl": 1.0883802694935278,
+        "wood": 0.3429531052275672
+      }
+    },
+    {
+      "excitation_source": "wood",
+      "resonator_target": "metal_bowl",
+      "source_rms_ratio": 1.2552642766911792,
+      "target_rms_ratio": 0.9328045433224387,
+      "dominance_score": 0.32245973336874056,
+      "best_match": "metal_bowl",
+      "score_map": {
+        "glass": 1.2916894935730634,
+        "mug": 1.503282291623046,
+        "metal_bowl": 0.9328045433224387,
+        "wood": 1.2552642766911792
+      }
+    },
+    {
+      "excitation_source": "wood",
+      "resonator_target": "wood",
+      "source_rms_ratio": 2.3175815787307323e-08,
+      "target_rms_ratio": 2.3175815787307323e-08,
+      "dominance_score": 0.0,
+      "best_match": "wood",
+      "score_map": {
+        "glass": 1.128884026745367,
+        "mug": 1.2322924498229686,
+        "metal_bowl": 1.077695368381065,
+        "wood": 2.3175815787307323e-08
+      }
+    }
+  ],
+  "target_dominance_rate": 0.08333333333333333,
+  "target_dominant_count": 1,
+  "off_diagonal_pairs": 12
+}

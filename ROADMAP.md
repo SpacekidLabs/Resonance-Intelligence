@@ -64,7 +64,7 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 10B to separate strike excitation from resonator response with deconvolution and reconstruction checks. (Completed June 22, 2026)
 - [x] Run Experiment 11 to replace static modal parameters with time-varying f(t), d(t), and A(t). (Completed June 22, 2026)
 - [x] Run Experiment 12 to analyze the remainder of the dynamic modal model with spectrum, decay, energy, and band-energy metrics. (Completed June 22, 2026)
-- [ ] Design Experiment 13 (Dynamic Excitation Modeling) to separate the remaining broadband transient from the dynamic modal remainder.
+- [x] Run Experiment 13 to test whether the dynamic residual is a physically meaningful excitation signal and whether excitation/resonator swaps preserve identity. (Completed June 22, 2026)
 
 ---
 
@@ -87,6 +87,17 @@ We reconstructed the sounds using the Fourier modes (phases set to zero):
 - *Scientific Verdict*:
   - The high RMS error ratios ($>100\%$) and negative SNRs confirm **Hypothesis C (Phase Sensitivity)**. Without tracking phase, the initial waveforms are out-of-phase at onset, creating large subtraction errors despite the sounding identity surviving.
   - Damped wood impacts show the highest reconstruction error (**153.97%**), confirming **Hypothesis B** (wood is dominated by transient broad-band noise, which is not sparse in a modal basis).
+
+### Experiment 13: Dynamic Excitation Modeling
+We treated the Experiment 12 dynamic residual as an excitation candidate and measured its compactness, flatness, and swap behavior:
+- **Glass**: first-10ms energy = **18.25%**, decay rate = **7.01 1/s**, spectral flatness = **2.876e-08**, self recombination RMS = **0.00%**.
+- **Mug**: first-10ms energy = **28.80%**, decay rate = **14.07 1/s**, spectral flatness = **5.451e-08**, self recombination RMS = **0.00%**.
+- **Metal Bowl**: first-10ms energy = **11.55%**, decay rate = **1.27 1/s**, spectral flatness = **1.417e-08**, self recombination RMS = **0.00%**.
+- **Wood**: first-10ms energy = **62.51%**, decay rate = **42.03 1/s**, spectral flatness = **4.518e-07**, self recombination RMS = **0.00%**.
+- *Scientific Verdict*:
+  - The dynamic residual is excitation-like in the sense that it is short-tailed for wood and clearly broadband relative to the dynamic modal remainder.
+  - Cross-material swaps mostly fail to transfer identity: only **1/12** off-diagonal hybrids were closer to the target resonator, and the best-match field overwhelmingly stayed with the source identity.
+  - This supports a separation between strike/excitation and resonator structure, but the excitation is still material-dependent rather than universal.
 
 ### Experiment 03: Observer Sweep & Epistemic Stability
 We swept 7 different observers (STFT, Filterbank, LPC, Prony, Matrix Pencil, Autocorrelation, Wavelet) on 4 real impact sound files (glass, mug, metal bowl, wood) after aligning segments starting at the detected onset.
