@@ -1,0 +1,93 @@
+{
+  "materials": [
+    "glass",
+    "mug",
+    "metal_bowl",
+    "wood"
+  ],
+  "independent_residual_classification_accuracy": 0.9722222222222222,
+  "coupled_residual_classification_accuracy": 0.9722222222222222,
+  "classification_gap": 0.0,
+  "independent_per_class_accuracy": {
+    "glass": 1.0,
+    "mug": 1.0,
+    "metal_bowl": 1.0,
+    "wood": 0.8888888888888888
+  },
+  "coupled_per_class_accuracy": {
+    "glass": 1.0,
+    "mug": 1.0,
+    "metal_bowl": 1.0,
+    "wood": 0.8888888888888888
+  },
+  "materials_detail": {
+    "glass": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "coupling_threshold": 0.75,
+      "strong_pair_count": 3,
+      "independent": {
+        "rms_ratio": 0.8900755022431893,
+        "snr_db": 1.0114630396916504,
+        "residual_energy_fraction": 0.7922342419624329
+      },
+      "coupled": {
+        "rms_ratio": 0.890059734971961,
+        "snr_db": 1.0116169075269947,
+        "residual_energy_fraction": 0.7922062277793884
+      },
+      "improvement_pct": 0.0017714532293679225
+    },
+    "mug": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "coupling_threshold": 0.75,
+      "strong_pair_count": 5,
+      "independent": {
+        "rms_ratio": 0.9995848037538531,
+        "snr_db": 0.0036070975650147005,
+        "residual_energy_fraction": 0.9991697072982788
+      },
+      "coupled": {
+        "rms_ratio": 0.9996170641343651,
+        "snr_db": 0.003326775593196757,
+        "residual_energy_fraction": 0.9992340803146362
+      },
+      "improvement_pct": -0.0032273780464538047
+    },
+    "metal_bowl": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "coupling_threshold": 0.75,
+      "strong_pair_count": 2,
+      "independent": {
+        "rms_ratio": 0.8331359419827704,
+        "snr_db": 1.585682587987348,
+        "residual_energy_fraction": 0.694115400314331
+      },
+      "coupled": {
+        "rms_ratio": 0.8331067378883745,
+        "snr_db": 1.5859870616921599,
+        "residual_energy_fraction": 0.6940667629241943
+      },
+      "improvement_pct": 0.003505321631707229
+    },
+    "wood": {
+      "onset_idx": 0,
+      "mode_count": 4,
+      "coupling_threshold": 0.75,
+      "strong_pair_count": 3,
+      "independent": {
+        "rms_ratio": 0.9398827661138137,
+        "snr_db": 0.5385262726721242,
+        "residual_energy_fraction": 0.8833797574043274
+      },
+      "coupled": {
+        "rms_ratio": 0.9588208434309532,
+        "snr_db": 0.3652506714399611,
+        "residual_energy_fraction": 0.9193376302719116
+      },
+      "improvement_pct": -2.0149403734067457
+    }
+  }
+}

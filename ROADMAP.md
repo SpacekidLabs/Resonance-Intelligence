@@ -67,6 +67,7 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 13 to test whether the dynamic residual is a physically meaningful excitation signal and whether excitation/resonator swaps preserve identity. (Completed June 22, 2026)
 - [x] Run Experiment 14 to test how much object identity can be decoded from excitation-only features versus resonator-only features. (Completed June 22, 2026)
 - [x] Run Experiment 15 to measure whether modal amplitudes and frequencies exhibit coupling, beating, sidebands, or shared envelopes. (Completed June 22, 2026)
+- [x] Run Experiment 16 to compare independent dynamic modes against explicitly coupled dynamic modes using the strong pairs from Experiment 15. (Completed June 22, 2026)
 
 ---
 
@@ -109,6 +110,24 @@ We trained a simple nearest-centroid classifier on 20 ms windows extracted from 
 - *Scientific Verdict*:
   - Excitation alone contains substantial object information, which explains why swap behavior is not universal.
   - The resonator still carries strong identity, but the excitation is not a clean object-independent impulse.
+
+### Experiment 15: Modal Coupling Detection
+We measured pairwise correlations and low-frequency envelope structure across the time-varying modal tracks from Experiment 10A:
+- **Strong-pair rate**: **100.00%** of pairwise mode combinations exceeded the coupling threshold.
+- **Mean coupling scores**: glass **0.691**, mug **0.846**, metal bowl **0.749**, wood **0.779**.
+- **Typical signatures**: high amplitude correlation, high envelope coherence, and low-band envelope modulation around the beat scale.
+- *Scientific Verdict*:
+  - The modes do not behave like independent oscillators in this representation.
+  - The data are consistent with coupled envelopes, frequency pulling, or energy exchange between modes.
+
+### Experiment 16: Coupled Dynamic Modal Synthesis
+We compared the independent dynamic model against an explicit coupling graph derived from Experiment 15:
+- **Independent residual classification accuracy**: **97.22%**.
+- **Coupled residual classification accuracy**: **97.22%**.
+- **Residual-energy change**: negligible for glass, mug, and metal bowl; wood got slightly worse under coupling.
+- *Scientific Verdict*:
+  - The explicit pairwise coupling used here does not yet improve overall reconstruction or make the residual less identifiable.
+  - The coupled graph is real, but this first-order coupling law is too weak to beat the independent dynamic basis.
 
 ### Experiment 15: Modal Coupling Detection
 We measured pairwise correlations and low-frequency envelope structure across the time-varying modal tracks from Experiment 10A:
