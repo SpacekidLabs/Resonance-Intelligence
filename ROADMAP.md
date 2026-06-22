@@ -62,7 +62,7 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 09 to analyze the residual spectrum, residual decay, and residual energy over time from the best reconstruction. (Completed June 22, 2026)
 - [x] Run Experiment 10A to track time-varying modal frequency, decay, and amplitude over the first 100 ms. (Completed June 22, 2026)
 - [x] Run Experiment 10B to separate strike excitation from resonator response with deconvolution and reconstruction checks. (Completed June 22, 2026)
-- [ ] Design Experiment 11 (Dynamic Modal Resynthesis) to replace static modal parameters with time-varying f(t), d(t), and A(t).
+- [x] Run Experiment 11 to replace static modal parameters with time-varying f(t), d(t), and A(t). (Completed June 22, 2026)
 
 ---
 
