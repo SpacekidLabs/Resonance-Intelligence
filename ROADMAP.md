@@ -57,7 +57,9 @@ The project should be redirected or abandoned if any of the following are empiri
 - [x] Run Experiment 03 to sweep 7 different observers and map epistemic stability.
 - [x] Run Experiment 04 to compare time-domain reconstruction errors with phase alignment.
 - [x] Run Experiment 05 to apply relative frequency perturbations and analyze state drift.
-- [ ] Design Experiment 06 (Iterative Phase Estimation) to implement a phase-locked loop (PLL) observer to actively track and correct frequency drift over time.
+- [x] Run Experiment 07 to implement iterative phase estimation with a phase-locked loop observer. (Completed June 22, 2026)
+- [x] Run Experiment 08 to sweep frequency estimation error and measure prediction horizon, RMS error, SNR, and phase error for open loop and iterative tracker models. (Completed June 22, 2026)
+- [ ] Design Experiment 09 (Residual Decomposition) to analyze the residual spectrum, residual decay, and residual energy over time from the best reconstruction.
 
 ---
 

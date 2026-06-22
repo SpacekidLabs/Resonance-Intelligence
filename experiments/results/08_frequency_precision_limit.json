@@ -1,0 +1,458 @@
+{
+  "glass": [
+    {
+      "frequency_error": 0.0001,
+      "frequency_error_percent": 0.01,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.06624774060754725,
+        "snr_db": 23.576578576019713,
+        "phase_error_deg": 33.72463212482224
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.1299983707564312,
+        "snr_db": 17.721241811289396,
+        "phase_error_deg": 107.24407196044922
+      }
+    },
+    {
+      "frequency_error": 0.0005,
+      "frequency_error_percent": 0.05,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.044690616029098594,
+        "snr_db": 26.995673175913687,
+        "phase_error_deg": 27.333089375188223
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.12715318293752262,
+        "snr_db": 17.913455278770623,
+        "phase_error_deg": 106.60456085205078
+      }
+    },
+    {
+      "frequency_error": 0.001,
+      "frequency_error_percent": 0.1,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.030699784533465908,
+        "snr_db": 30.257293450607982,
+        "phase_error_deg": 19.532089511460992
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.17875584225187602,
+        "snr_db": 14.954795105887689,
+        "phase_error_deg": 116.30821228027344
+      }
+    },
+    {
+      "frequency_error": 0.002,
+      "frequency_error_percent": 0.2,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.07341472914084277,
+        "snr_db": 22.684335982774112,
+        "phase_error_deg": 8.073371986704872
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.2279920373917648,
+        "snr_db": 12.841606408615366,
+        "phase_error_deg": 122.79363250732422
+      }
+    },
+    {
+      "frequency_error": 0.005,
+      "frequency_error_percent": 0.5,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.2623446433935314,
+        "snr_db": 11.622555977543378,
+        "phase_error_deg": 53.06970686059477
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.307982661080499,
+        "snr_db": 10.229474657390611,
+        "phase_error_deg": 130.02049255371094
+      }
+    },
+    {
+      "frequency_error": 0.01,
+      "frequency_error_percent": 1.0,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.5308002658686493,
+        "snr_db": 5.50137736540389,
+        "phase_error_deg": 116.22268772402559
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.39633197397577047,
+        "snr_db": 8.038817793064966,
+        "phase_error_deg": 134.60205078125
+      }
+    },
+    {
+      "frequency_error": 0.02,
+      "frequency_error_percent": 2.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.8095728805523416,
+        "snr_db": 1.8348809690648884,
+        "phase_error_deg": 41.54154702558449
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.5278302984473431,
+        "snr_db": 5.550113681545805,
+        "phase_error_deg": 41.292999267578125
+      }
+    }
+  ],
+  "mug": [
+    {
+      "frequency_error": 0.0001,
+      "frequency_error_percent": 0.01,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.02112574768373431,
+        "snr_db": 33.50375822193286,
+        "phase_error_deg": 20.263197286688644
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.014289677793841854,
+        "snr_db": 36.89955126021176,
+        "phase_error_deg": 1.1644283533096313
+      }
+    },
+    {
+      "frequency_error": 0.0005,
+      "frequency_error_percent": 0.05,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.016376817567099702,
+        "snr_db": 35.71540976606475,
+        "phase_error_deg": 15.093376010966159
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.014619916741807178,
+        "snr_db": 36.70110199979848,
+        "phase_error_deg": 1.1278382539749146
+      }
+    },
+    {
+      "frequency_error": 0.001,
+      "frequency_error_percent": 0.1,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.026120851814707455,
+        "snr_db": 31.660253284853198,
+        "phase_error_deg": 8.916196850129921
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01999993638907948,
+        "snr_db": 33.979427703495226,
+        "phase_error_deg": 1.1382362842559814
+      }
+    },
+    {
+      "frequency_error": 0.002,
+      "frequency_error_percent": 0.2,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.06026759411644232,
+        "snr_db": 24.398322901455213,
+        "phase_error_deg": 9.430045164280337
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.03677609320251026,
+        "snr_db": 28.688688167221635,
+        "phase_error_deg": 1.3244203329086304
+      }
+    },
+    {
+      "frequency_error": 0.005,
+      "frequency_error_percent": 0.5,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.17005215721288036,
+        "snr_db": 15.388357087010567,
+        "phase_error_deg": 50.1821672326238
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.09377542738572861,
+        "snr_db": 20.55821895503132,
+        "phase_error_deg": 2.533402919769287
+      }
+    },
+    {
+      "frequency_error": 0.01,
+      "frequency_error_percent": 1.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.34134228117429133,
+        "snr_db": 9.336198268684532,
+        "phase_error_deg": 25.663719969081306
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.18889755264042746,
+        "snr_db": 14.475473374224876,
+        "phase_error_deg": 27.70128631591797
+      }
+    },
+    {
+      "frequency_error": 0.02,
+      "frequency_error_percent": 2.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.5993378253858578,
+        "snr_db": 4.446566244758993,
+        "phase_error_deg": 40.494196636941524
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.3638082884531932,
+        "snr_db": 8.78254821646212,
+        "phase_error_deg": 41.80103302001953
+      }
+    }
+  ],
+  "metal_bowl": [
+    {
+      "frequency_error": 0.0001,
+      "frequency_error_percent": 0.01,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.015595254813477302,
+        "snr_db": 36.14015049142978,
+        "phase_error_deg": 21.610028650977096
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.007856169210072364,
+        "snr_db": 42.095783410877665,
+        "phase_error_deg": 1.3263427019119263
+      }
+    },
+    {
+      "frequency_error": 0.0005,
+      "frequency_error_percent": 0.05,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01101779974622028,
+        "snr_db": 39.15810250048786,
+        "phase_error_deg": 15.354736969443193
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.00872745667062932,
+        "snr_db": 41.18224596368651,
+        "phase_error_deg": 1.2339245080947876
+      }
+    },
+    {
+      "frequency_error": 0.001,
+      "frequency_error_percent": 0.1,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.02821713542615488,
+        "snr_db": 30.989741546247913,
+        "phase_error_deg": 8.191298435093003
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01895440582071296,
+        "snr_db": 34.44579649977018,
+        "phase_error_deg": 1.2180496454238892
+      }
+    },
+    {
+      "frequency_error": 0.002,
+      "frequency_error_percent": 0.2,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.06996631219470184,
+        "snr_db": 23.102220326904856,
+        "phase_error_deg": 13.464950303802535
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.042507510395481334,
+        "snr_db": 27.43068660396937,
+        "phase_error_deg": 1.5070805549621582
+      }
+    },
+    {
+      "frequency_error": 0.005,
+      "frequency_error_percent": 0.5,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.19538576980888694,
+        "snr_db": 14.182141393063292,
+        "phase_error_deg": 61.75786594817491
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.11431865658880014,
+        "snr_db": 18.83765775483284,
+        "phase_error_deg": 3.4239447116851807
+      }
+    },
+    {
+      "frequency_error": 0.01,
+      "frequency_error_percent": 1.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.38466185696043564,
+        "snr_db": 8.298417523003518,
+        "phase_error_deg": 19.506908165124127
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.23000914247641221,
+        "snr_db": 12.765098022848914,
+        "phase_error_deg": 19.316011428833008
+      }
+    },
+    {
+      "frequency_error": 0.02,
+      "frequency_error_percent": 2.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.6502161352242849,
+        "snr_db": 3.738845152082509,
+        "phase_error_deg": 35.846152202922426
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.4304729953355849,
+        "snr_db": 7.32108175476295,
+        "phase_error_deg": 35.76057434082031
+      }
+    }
+  ],
+  "wood": [
+    {
+      "frequency_error": 0.0001,
+      "frequency_error_percent": 0.01,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01701930927389651,
+        "snr_db": 35.381161375645085,
+        "phase_error_deg": 13.363142491840598
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.016505509746898253,
+        "snr_db": 35.64742115409456,
+        "phase_error_deg": 2.671163558959961
+      }
+    },
+    {
+      "frequency_error": 0.0005,
+      "frequency_error_percent": 0.05,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01774813066976631,
+        "snr_db": 35.01694763238946,
+        "phase_error_deg": 9.041576910036188
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.01704468496771631,
+        "snr_db": 35.36822040843064,
+        "phase_error_deg": 2.6177380084991455
+      }
+    },
+    {
+      "frequency_error": 0.001,
+      "frequency_error_percent": 0.1,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.025337128770631108,
+        "snr_db": 31.924852015167843,
+        "phase_error_deg": 4.008232314460903
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.020886699007672333,
+        "snr_db": 33.60260381969968,
+        "phase_error_deg": 2.6026480197906494
+      }
+    },
+    {
+      "frequency_error": 0.002,
+      "frequency_error_percent": 0.2,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.04774407580555995,
+        "snr_db": 26.421610173334592,
+        "phase_error_deg": 13.66879560005022
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.03372954483353105,
+        "snr_db": 29.439790378862828,
+        "phase_error_deg": 2.7526321411132812
+      }
+    },
+    {
+      "frequency_error": 0.005,
+      "frequency_error_percent": 0.5,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.12220142936145055,
+        "snr_db": 18.258474281733513,
+        "phase_error_deg": 43.394384114540514
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.08058560431101337,
+        "snr_db": 21.874850655368043,
+        "phase_error_deg": 4.142670154571533
+      }
+    },
+    {
+      "frequency_error": 0.01,
+      "frequency_error_percent": 1.0,
+      "open_loop": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.2441904971087566,
+        "snr_db": 12.2454248188833,
+        "phase_error_deg": 70.19196204573977
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 246.93878173828125,
+        "rms_error_ratio": 0.1607585487543685,
+        "snr_db": 15.876518458852598,
+        "phase_error_deg": 7.793985843658447
+      }
+    },
+    {
+      "frequency_error": 0.02,
+      "frequency_error_percent": 2.0,
+      "open_loop": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.4559593299449906,
+        "snr_db": 6.821477863665121,
+        "phase_error_deg": 25.118401487315317
+      },
+      "iterative_tracker": {
+        "prediction_horizon_ms": 2.494331121444702,
+        "rms_error_ratio": 0.31234167885574815,
+        "snr_db": 10.107401192193347,
+        "phase_error_deg": 24.578397750854492
+      }
+    }
+  ]
+}
