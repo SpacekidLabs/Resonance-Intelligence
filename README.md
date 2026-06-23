@@ -81,3 +81,17 @@ To run the modal resynthesis and generate comparison plots:
 python3 experiments/02_modal_resynthesis.py
 ```
 All outputs will be saved to the `experiments/results/` directory.
+
+---
+
+## 5. Experiment 17
+
+Experiment 17 adds a lag-correlation test for modal coupling vs. shared
+excitation:
+
+```bash
+python3 experiments/17_causal_coupling_vs_common_excitation.py --save experiments/17_causal_coupling_vs_common_excitation.png
+```
+
+It checks whether modal band-energy traces correlate most strongly with each
+other at zero lag, or whether the excitation envelope is the common driver.
